@@ -11,9 +11,8 @@ from bs4 import BeautifulSoup
 def getRawSource(url, counter):
     if counter%20 == 0:
         print('- Sleep -')
-        time.sleep(random.randint(30, 50))
+        time.sleep(random.randint(10, 30))
     response = urlopen(url).read()
-    time.sleep(random.randint(1, 3))
     soup = BeautifulSoup(response, 'html.parser')
     return soup
 
