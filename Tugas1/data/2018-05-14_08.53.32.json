@@ -1,0 +1,2219 @@
+{
+    "dummy": [
+        {
+            "url": "/cities/surabaya/offers/22551",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-26T00:00:00.000+08:00",
+            "purchases_count": 6,
+            "original_price": 2497440.0,
+            "name": "3D2N in Superior Room + Breakfast",
+            "last_purchased_at": "2018-05-13T22:22:10.385+08:00",
+            "id": 22551,
+            "hotness": 165789,
+            "end_date": "2018-09-26T23:59:59.999+08:00",
+            "discounted_price": 1050000.0,
+            "discount": 58,
+            "description": "Mirah Hotel Bogor bisa menjadi pilihan Anda untuk menghabiskan waktu bersama keluarga dan juga kerabat terdekat. Mirah Hotel Bogor menyediakan layanan setara dengan hotel bintang 4.",
+            "average_rating": "4.30",
+            "partner": {
+                "location": {
+                    "latitude": "-6.583116",
+                    "longitude": "106.804443"
+                },
+                "company_name": "The Mirah Hotel Bogor",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Bogor"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "jakarta",
+                "medan",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/12403",
+            "today_purchases_count": 0,
+            "start_date": "2017-07-05T00:00:00.000+08:00",
+            "purchases_count": 12,
+            "original_price": 8000000.0,
+            "name": "Kuta: 5D4N in One Bedroom Suite with Plunge Pool",
+            "last_purchased_at": "2018-04-30T13:08:47.422+08:00",
+            "id": 12403,
+            "hotness": 51179,
+            "end_date": "2018-08-31T23:59:59.999+08:00",
+            "discounted_price": 1996000.0,
+            "discount": 75,
+            "description": "The Adma Umalas berada di Kerobokan (Petitenget), yang terletak dekat dengan Pantai Batu Belig, Seminyak Square, dan Canggu Club. Tidak jauh dari tempat ini juga terdapat TAKSU Bali Gallery dan Pura Petitenget yang dapat dikunjungi. Adma Umalas memiliki berbagai fasilitas yang dapat dinikmati seperti akses internet, laundry, serta fasilitas lainnya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.669178",
+                    "longitude": "115.158919"
+                },
+                "company_name": "Adma Umalas Resort",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "jakarta",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/24019",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-23T00:00:00.000+08:00",
+            "purchases_count": 21,
+            "original_price": 5980000.0,
+            "name": "3D2N at One Bedroom Villa + Breakfast",
+            "last_purchased_at": "2018-05-13T16:45:36.003+08:00",
+            "id": 24019,
+            "hotness": 33190,
+            "end_date": "2018-09-30T23:59:59.999+08:00",
+            "discounted_price": 2256900.0,
+            "discount": 62,
+            "description": "Le Nixsun Villa & Spa kini hadir untuk menjadi pilihan menginap Anda di Bali. Le Nixsun Villa & Spa menyediakan villa dengan fasilitas bintang 4. Dengan pelayanan yang ramah, serta design kamar ala Bali akan membuat Anda semakin nyaman untuk tinggal di Le Nixsun Villa & Spa.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.81608",
+                    "longitude": "115.15136"
+                },
+                "company_name": "Le Nixsun Villa",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Ungasan"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "jakarta",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/17421",
+            "today_purchases_count": 2,
+            "start_date": "2017-10-31T00:00:00.000+08:00",
+            "purchases_count": 52,
+            "original_price": 1600000.0,
+            "name": "Kuta: 3D2N Superior Room with Breakfast",
+            "last_purchased_at": "2018-05-14T09:49:58.444+08:00",
+            "id": 17421,
+            "hotness": 28000,
+            "end_date": "2018-12-10T23:59:59.999+08:00",
+            "discounted_price": 742000.0,
+            "discount": 54,
+            "description": "Nikmati liburan di Grand Zuri Hotel Bali, Hotel dengan bintang 4 dan desain yang kontemporer, berlokasi strategis dekat Pantai Kuta, Legian, Seminyak yang dilengkapi dengan outdoor swimming pool dan Cerenti Restaurant dengan hidangan Indonesia & Internasional.",
+            "average_rating": "3.30",
+            "partner": {
+                "location": {
+                    "latitude": "-8.711796",
+                    "longitude": "115.181583"
+                },
+                "company_name": "Grand Zuri Hotel Kuta Bali",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "jakarta",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/5019",
+            "today_purchases_count": 0,
+            "start_date": "2016-11-04T00:00:00.000+08:00",
+            "purchases_count": 37,
+            "original_price": 1950000.0,
+            "name": "Jimbaran: Stay 4D3N in Deluxe Room (with Breakfast)",
+            "last_purchased_at": "2018-05-13T15:53:08.671+08:00",
+            "id": 5019,
+            "hotness": 26175,
+            "end_date": "2018-07-30T23:59:59.999+08:00",
+            "discounted_price": 1047000.0,
+            "discount": 46,
+            "description": "Terletak di pusat Jimbaran, Horison Jimbaran Hotel adalah tempat ideal untuk menelusuri Bali. Hanya 1.7 km dari sini, hotel bintang 3 ini dapat secara mudah diakses dari bandara.",
+            "average_rating": "2.50",
+            "partner": {
+                "location": {
+                    "latitude": "-8.76276",
+                    "longitude": "115.175198"
+                },
+                "company_name": "Horison Jimbaran Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "jakarta",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/4525",
+            "today_purchases_count": 0,
+            "start_date": "2016-12-02T00:00:00.000+08:00",
+            "purchases_count": 85,
+            "original_price": 689000.0,
+            "name": "Singapore: Explore Sentosa Package (Include Segway Fun Ride) for Adult ",
+            "last_purchased_at": "2018-03-14T15:06:43.284+08:00",
+            "id": 4525,
+            "hotness": 20544,
+            "end_date": "2018-06-30T23:59:59.999+08:00",
+            "discounted_price": 369800.0,
+            "discount": 46,
+            "description": "Singapura adalah kota yang dikenal dengan industri pariwisatanya. Tidak kurang dari 10,2 juta wisatawan datang mengunjungi Singapura pada tahun 2007. Tempat-tempat tujuan wisata yang dapat Anda kunjungi di Singapura antara lain Merlion Park, Universal Studio, Orchard Road, Sentosa Island, Gardens by the Bay, Singapore Zoo, dan masih banyak yang lainnya.",
+            "average_rating": "4.10",
+            "partner": {
+                "location": {
+                    "latitude": "1.304613",
+                    "longitude": "103.833951"
+                },
+                "company_name": "Cebu Air Travel & Tours",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Lucky Plaza"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "jakarta",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/3499",
+            "today_purchases_count": 0,
+            "start_date": "2017-10-01T00:00:00.000+08:00",
+            "purchases_count": 205,
+            "original_price": 1650000.0,
+            "name": "Legian: 4D3N Stay in Superior Room (Room Breakfast)",
+            "last_purchased_at": "2018-05-13T14:29:16.401+08:00",
+            "id": 3499,
+            "hotness": 13333,
+            "end_date": "2018-12-31T23:59:59.999+08:00",
+            "discounted_price": 720000.0,
+            "discount": 56,
+            "description": "The Harmony Legian Hotel merupakan hotel yang terletak hanya 8.0 Km dari pusat kota yang menyediakan fasilitas seperti kolam berenang, wifi gratis, kamar hotel yang berdisain minimal dan masih banyak lainnya. Terletak di jalan Legian yang terkanal dengan banyak club, toko dan restoran. Hanya 10 menit berjalan kaki ke Beach Walk Kuta Beach dan Joger, 15 minutes perjalanan menyetir ke Ngurah Rai Airport.",
+            "average_rating": "3.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.706724",
+                    "longitude": "115.175117"
+                },
+                "company_name": "The Harmony Legian Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/24411",
+            "today_purchases_count": 0,
+            "start_date": "2018-04-04T00:00:00.000+08:00",
+            "purchases_count": 7,
+            "original_price": 3500000.0,
+            "name": "3D2N in 1 BR Private Pool Suite + Breakfast",
+            "last_purchased_at": "2018-05-04T16:44:27.427+08:00",
+            "id": 24411,
+            "hotness": 12593,
+            "end_date": "2018-12-31T23:59:59.999+08:00",
+            "discounted_price": 1700000.0,
+            "discount": 51,
+            "description": "Marbella Pool Suites Seminyak adalah salah satu hotel bintang 4 yang bisa menjadi salah satu pilihan Anda untuk menginap bersama keluarga dan juga kerabat Anda. Marbella Pool Suites Seminyak terletak di lokasi yang strategis dekat dengan tempat wisata.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.676949",
+                    "longitude": "115.159419"
+                },
+                "company_name": "Marbella Suite Seminyak Bali",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Seminyak Bali"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "medan",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/9660",
+            "today_purchases_count": 0,
+            "start_date": "2017-04-04T00:00:00.000+08:00",
+            "purchases_count": 273,
+            "original_price": 1573000.0,
+            "name": "2D1N Junior Suite Room (RO)",
+            "last_purchased_at": "2018-05-09T20:51:43.242+08:00",
+            "id": 9660,
+            "hotness": 12090,
+            "end_date": "2018-05-30T23:59:59.999+08:00",
+            "discounted_price": 943000.0,
+            "discount": 40,
+            "description": "Sahid Eminence Hotel merupakan salah satu hotel bintang 4 yang terletak di Jalan Hanjawar no. 19 Ciloto - Puncak. Mempunyai 379 kamar, Sahid Eminence Hotel dilengkapi dengan riverside restaurant, lounge & bar ,roof top restaurant, warm swimming pool yang terletak di lt. 5, swimming pool with water temperature on the ground floor, fitness center, spa, private jacuzzi, children playground.",
+            "average_rating": "2.50",
+            "partner": {
+                "location": {
+                    "latitude": "-6.702488",
+                    "longitude": "106.999"
+                },
+                "company_name": "Sahid Eminence Puncak",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Puncak West Java"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/23692",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-19T00:00:00.000+08:00",
+            "purchases_count": 41,
+            "original_price": 508000.0,
+            "name": "2D1N in Superior Room +  Breakfast",
+            "last_purchased_at": "2018-05-13T20:02:34.046+08:00",
+            "id": 23692,
+            "hotness": 11043,
+            "end_date": "2019-01-31T23:59:59.999+08:00",
+            "discounted_price": 254000.0,
+            "discount": 50,
+            "description": "Jika Anda sedang ada keperluan bisnis atau bahkan hanya berlibur di Bali. Anda dapat mencoba untuk menginap di Berry Biz Hotel. Berry Biz Hotel adalah salah satu hotel bintang business dan backpacker terbaik di Bali. Berry Biz Hotel menyediakan berbagai fasilitas yang dapat dinikmati selama Anda menginap seperti, restaurant, laudry dan aiport shuttle",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.698057",
+                    "longitude": "115.177702"
+                },
+                "company_name": "Berry Biz Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Berry Biz Hotel - Seminyak"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/24832",
+            "today_purchases_count": 0,
+            "start_date": "2018-04-09T00:00:00.000+08:00",
+            "purchases_count": 83,
+            "original_price": 170000.0,
+            "name": "90 Minutes Serenity Special  Body Massage + Hot Towel + Hot Ginger Tea",
+            "last_purchased_at": "2018-05-13T15:31:49.190+08:00",
+            "id": 24832,
+            "hotness": 7875,
+            "end_date": "2018-07-31T23:59:59.999+08:00",
+            "discounted_price": 94500.0,
+            "discount": 44,
+            "description": "Manjakan diri Anda dengan beberapa penawaran yang diberikan oleh Serenity Family Reflexology berupa Traditional Body Massage selama 90 Menit, Anda akan mendapatkan beberapa treatment seperti, Full Body Massage, Hot Towel, dan Hot Ginger Tea. Dengan melakukan body massage secara rutin akan membuat tubuh Anda semakin rileks, meredangkan otot yang kaku, dan mengurangi stress.",
+            "average_rating": "4.40",
+            "partner": {
+                "location": {
+                    "latitude": "-7.2827866",
+                    "longitude": "112.73694"
+                },
+                "company_name": "Serenity Family Reflexology",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Dr Soetomo"
+                ]
+            },
+            "customer_city": [
+                "surabaya"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/23863",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-22T00:00:00.000+08:00",
+            "purchases_count": 10,
+            "original_price": 450000.0,
+            "name": "2D1N in Deluxe Room (Room Only)",
+            "last_purchased_at": "2018-05-11T18:08:20.412+08:00",
+            "id": 23863,
+            "hotness": 7842,
+            "end_date": "2018-09-22T23:59:59.999+08:00",
+            "discounted_price": 149000.0,
+            "discount": 67,
+            "description": "Nikmati Pengalaman Menginap dengan Suasana Pantai yang menenangkan. Nathan Hotel Kuta adalah sebuah hotel yang terletak di pusat Kuta, dengan desain tema kombinasi antara gaya Bali tradisional. Nathan hotel menawarkan ketenangan, kenyamanan dan keramahan dari pegawainya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.729913",
+                    "longitude": "115.170214"
+                },
+                "company_name": "Nathan Hotel Kuta - (Recommended for Backpacker)",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Nathan Hotel Kuta"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "medan",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/26278",
+            "today_purchases_count": 0,
+            "start_date": "2018-05-04T00:00:00.000+08:00",
+            "purchases_count": 25,
+            "original_price": 99000.0,
+            "name": "[#FaveRamadhan] All You Can Eat Kampoeng Ramadhan - Mulai Berlaku 16 Mei 2018",
+            "last_purchased_at": "2018-05-13T19:07:38.497+08:00",
+            "id": 26278,
+            "hotness": 7459,
+            "end_date": "2018-06-13T23:59:59.999+08:00",
+            "discounted_price": 69000.0,
+            "discount": 30,
+            "description": "Yello Hotel Jemursari kini hadir di Fave dengan menyediakan paket berupa All You Can Eat Kampoeng Ramadhan dengan menu pilihan yang diolah menggunakan bahan baku berkualitas pilihan, menu yang disediakan yaitu menu traditional Indonesia, seperti kue kering, kue basah, berbagai macam varian sate, dan masih banyak lagi menu yang disediakan. Yello Hotel Jemursari cocok untuk menjadi pilihan makan siang Anda, bersama keluarga dan juga kerabat terdekat.",
+            "average_rating": "4.20",
+            "partner": {
+                "location": {
+                    "latitude": "-7.330843",
+                    "longitude": "112.724151"
+                },
+                "company_name": "YELLO Hotel Jemursari",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Jemursari"
+                ]
+            },
+            "customer_city": [
+                "surabaya"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/22650",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-27T00:00:00.000+08:00",
+            "purchases_count": 60,
+            "original_price": 601667.0,
+            "name": "2D1N in Superior Room + Breakfast",
+            "last_purchased_at": "2018-05-11T17:41:40.968+08:00",
+            "id": 22650,
+            "hotness": 6903,
+            "end_date": "2018-09-27T23:59:59.999+08:00",
+            "discounted_price": 390000.0,
+            "discount": 35,
+            "description": "Jika Anda berencana untuk mencari penginapan di daerah Malang, Jawa Timur, Anda wajib untuk mencoba menginap di Whiz Prime Hotel Basuki Rahmat Malang yang mengusung tema modern dan elegant ini sangat cocok menemani perjalanan Anda bersama orang \u2013 orang terkasih di Malang. Anda juga akan mendapatkan sarapan yang lezat sebagai bonusnya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-7.969981",
+                    "longitude": "112.628452"
+                },
+                "company_name": "Whiz Prime Hotel Basuki Rahmat Malang",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Malang"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "medan",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/25007",
+            "today_purchases_count": 0,
+            "start_date": "2018-04-11T00:00:00.000+08:00",
+            "purchases_count": 163,
+            "original_price": 905000.0,
+            "name": "Hair Wash + Hair Cut + Creambath All by Shisedo + Complete Treatment Package",
+            "last_purchased_at": "2018-05-13T23:33:57.410+08:00",
+            "id": 25007,
+            "hotness": 6750,
+            "end_date": "2018-05-31T23:59:59.999+08:00",
+            "discounted_price": 99000.0,
+            "discount": 89,
+            "description": "Luangkan waktu sejenak untuk memanjakan dan merawat tubuh Anda bersama POSH hair & beauty lounge. Sekarang POSH hair & beauty lounge hadir di Fave dengan paket Hair Wash by Shisedo, Haircut, Creambath by Shisedo, Blow, Foot Bath, Foot Reflexology, Back Massage, Arm Massage, dan Welcome Drink yang akan membuat badan terasa lebih segar dan siap mengahadapi kesibukan kerja lagi esok hari.",
+            "average_rating": "5.00",
+            "partner": {
+                "location": {
+                    "latitude": "-7.294168",
+                    "longitude": "112.7155566"
+                },
+                "company_name": "POSH hair & beauty lounge",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Dukuh pakis"
+                ]
+            },
+            "customer_city": [
+                "surabaya"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/18049",
+            "today_purchases_count": 0,
+            "start_date": "2017-11-20T00:00:00.000+08:00",
+            "purchases_count": 2457,
+            "original_price": 680000.0,
+            "name": "2x Trial Sessions + Free Body Composition Analysis",
+            "last_purchased_at": "2018-05-13T23:37:50.399+08:00",
+            "id": 18049,
+            "hotness": 6058,
+            "end_date": "2018-06-20T23:59:59.999+08:00",
+            "discounted_price": 189000.0,
+            "discount": 72,
+            "description": "20FIT kini hadir dengan memberikan promo khusus untuk 2x Trial Sessions + Free Body Composition Analysis! Tiap sesi akan berlangsung selama 20 menit namun setara dengan 2 \u2013 4 latihan di gym conventional. EMS (Electro Muscle Stimulation) sendiri bekerja dengan mentransmisi aliran listrik berintensitas rendah ke otot tubuh yang digunakan untuk membangun otot dan membakar lemak. Setiap sesi latihan akan dibimbing oleh instruktur berpengalaman khusus, untuk mendapatkan hasil latihan yang maksimal.",
+            "average_rating": "4.80",
+            "partner": {
+                "location": {
+                    "latitude": "-6.277776",
+                    "longitude": "106.799273"
+                },
+                "company_name": "20Fit",
+                "outlet_count": 20,
+                "outlet_names": [
+                    "Cipete",
+                    "Central Park",
+                    "Puri",
+                    "Menteng",
+                    "Senayan",
+                    "Setiabudi",
+                    "SCBD",
+                    "Pondok Indah",
+                    "Tebet",
+                    "Pantai Indah Kapuk",
+                    "Sunter",
+                    "Gading Serpong",
+                    "Bandung",
+                    "Surabaya Timur",
+                    "Bintaro",
+                    "Yogyakarta",
+                    "Medan Polonia",
+                    "Semarang",
+                    "Bali",
+                    "Palembang"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/23309",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-12T00:00:00.000+08:00",
+            "purchases_count": 41,
+            "original_price": 1800000.0,
+            "name": "2D1N in Deluxe Room + Breakfast",
+            "last_purchased_at": "2018-05-13T12:43:11.021+08:00",
+            "id": 23309,
+            "hotness": 5032,
+            "end_date": "2018-06-12T23:59:59.999+08:00",
+            "discounted_price": 624000.0,
+            "discount": 65,
+            "description": "Amaroossa Hotel Bandung merupakan salah satu hotel bintang 4 yang cocok untuk menjadi pilihan menginap Anda bersama keluarga dan juga kerabat terdekat jika mengunjungi kota Bandung. Amaroossa Hotel Bandung menyediakan fasilitas yang lengkap untuk Anda.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-6.901533",
+                    "longitude": "107.618042"
+                },
+                "company_name": "The Amaroossa Hotel Bandung",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "The Amaroossa Hotel Bandung"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "medan"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/23693",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-20T00:00:00.000+08:00",
+            "purchases_count": 14,
+            "original_price": 350000.0,
+            "name": "Jakarta: 2D1N in Special Promo Room",
+            "last_purchased_at": "2018-05-13T15:43:21.575+08:00",
+            "id": 23693,
+            "hotness": 4911,
+            "end_date": "2018-09-20T23:59:59.999+08:00",
+            "discounted_price": 275000.0,
+            "discount": 21,
+            "description": "Le Green Suite Kuningan kini hadir di Fave untuk menawarkan Anda penginapan jika berkunjung ke Jakarta. Le Green Suite Kuningan menawarkan fasilitas, fasilitas lengkap, layanan berkualitas, dan pemilihan lokasi strategis.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-6.201384",
+                    "longitude": "106.827504"
+                },
+                "company_name": "Le Green Suite Kuningan",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Le Green Suite Kuningan"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali",
+                "medan"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/20330",
+            "today_purchases_count": 2,
+            "start_date": "2018-01-11T00:00:00.000+08:00",
+            "purchases_count": 29252,
+            "original_price": 100000.0,
+            "name": "Voucher Value worth Rp 100.000,- for Food Only ",
+            "last_purchased_at": "2018-05-14T09:28:16.226+08:00",
+            "id": 20330,
+            "hotness": 4389,
+            "end_date": "2018-07-26T23:59:59.999+08:00",
+            "discounted_price": 70000.0,
+            "discount": 30,
+            "description": "Genki Sushi kini hadir di Fave untuk memberikan Anda berbagai penawaran untuk menemani makan siang ataupun makan malam Anda dengan voucher value sebesar Rp. 100.000 dengan berbagai macam menu pilihan seperti berbagai macam varian Sushi & Sashimi, aneka macam rice bowl, dan udon",
+            "average_rating": "4.80",
+            "partner": {
+                "location": {
+                    "latitude": "-6.127574",
+                    "longitude": "106.790734"
+                },
+                "company_name": "Genki Sushi",
+                "outlet_count": 15,
+                "outlet_names": [
+                    "Emporium Pluit",
+                    "Kota Kasablanka",
+                    "Central Park",
+                    "Plaza Senayan",
+                    "Galaxy Mall Surabaya",
+                    "Grand Indonesia",
+                    "Mall Kelapa Gading 3",
+                    "Pacific Place",
+                    "PIM 2",
+                    "Lippo Mall Puri",
+                    "Pakuwon Mall",
+                    "Tunjungan Plaza 4",
+                    "Supermal Karawaci",
+                    "23 Paskal",
+                    "Summarecon Mall Bekasi"
+                ]
+            },
+            "customer_city": [
+                "surabaya"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/26510",
+            "today_purchases_count": 2,
+            "start_date": "2018-05-09T00:00:00.000+08:00",
+            "purchases_count": 625,
+            "original_price": 69000.0,
+            "name": "[Galaxy Mall SBY] Froyo Grand Launching, Frozen Yogurt with Real Juice - Voucher Berlaku Mulai Tanggal 21 Mei 2018",
+            "last_purchased_at": "2018-05-14T09:18:19.159+08:00",
+            "id": 26510,
+            "hotness": 4255,
+            "end_date": "2018-06-03T23:59:59.999+08:00",
+            "discounted_price": 10000.0,
+            "discount": 86,
+            "description": "Sour Sally kini hadir kembali di Fave untuk memberikan Anda penawaran untuk ikut merayakan Sour Sally\u2019s 10th Years of Magic. Anda dapat menikmati Froyo, yaitu sajian Frozen Yogurt yang ditambahkan dengan dragon fruit yang baik untuk mencegah kanker. Selain itu dapatkan juga manfaat lainnya untuk tubuh Anda, seperti Matcha sauce yang baik untuk kulit Anda, Froyo yang baik untuk imun tubuh Anda, dan bisa sebagai penunda lapar.",
+            "average_rating": "4.40",
+            "partner": {
+                "location": {
+                    "latitude": "-7.275092",
+                    "longitude": "112.782213"
+                },
+                "company_name": "Sour Sally",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Galaxy Mall Surabaya"
+                ]
+            },
+            "customer_city": [
+                "surabaya"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/25388",
+            "today_purchases_count": 0,
+            "start_date": "2018-04-20T00:00:00.000+08:00",
+            "purchases_count": 119,
+            "original_price": 52000.0,
+            "name": "Cocoa Rocksalt & Cheese (Medium) + Mango Green Tea (Medium) ",
+            "last_purchased_at": "2018-05-13T21:41:27.051+08:00",
+            "id": 25388,
+            "hotness": 3944,
+            "end_date": "2018-06-20T23:59:59.999+08:00",
+            "discounted_price": 40000.0,
+            "discount": 23,
+            "description": "Lepaskan dahaga Anda setelah beraktifitas dengan menu minuman ala Taiwan dari Sharetea, Anda akan mendapatkan Cocoa Rocksalt & Cheese (Medium) dan Mango Green Tea (Medium). Sharetea menggunakan bahan baku yang berkualitas setiap harinya sehingga menciptakan cita rasa yang segar untuk Anda. Nikmati minuman-minuman ini bersama keluarga atau teman-teman sebagai pencuci mulut selepas makan maupun menemani aktivitas jalan-jalan santai Anda.",
+            "average_rating": "4.70",
+            "partner": {
+                "location": {
+                    "latitude": "-6.221919",
+                    "longitude": "106.814554"
+                },
+                "company_name": "Sharetea",
+                "outlet_count": 16,
+                "outlet_names": [
+                    "Plaza Semanggi",
+                    "PIM 2",
+                    "Puri Indah Mall",
+                    "Mall Ciputra Jakarta",
+                    "Cihampelas Walk",
+                    "TSM Bandung",
+                    "Daan Mogot",
+                    "Lokasari",
+                    "Baywalk Pluit",
+                    "EMPORIUM PLUIT",
+                    "Neo Soho",
+                    "CSB Cirebon",
+                    "Plaza Atrium",
+                    "DP Mall Semarang",
+                    "Gorontalo",
+                    "Gandaria City"
+                ]
+            },
+            "customer_city": [
+                "surabaya"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/23680",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-19T00:00:00.000+08:00",
+            "purchases_count": 240,
+            "original_price": 27000.0,
+            "name": "3 Fried Chicken Package",
+            "last_purchased_at": "2018-05-13T19:03:09.997+08:00",
+            "id": 23680,
+            "hotness": 3891,
+            "end_date": "2018-06-30T23:59:59.999+08:00",
+            "discounted_price": 18900.0,
+            "discount": 30,
+            "description": "Bagi Anda pecinta fried chicken Anda wajib untuk mencoba Lazizaa Chicken & Pizza. Fried chicken dengan rasa yang lezat dan harga yang terjangkau ini sangat pas untuk Anda.",
+            "average_rating": "4.20",
+            "partner": {
+                "location": {
+                    "latitude": "-7.2837706",
+                    "longitude": "112.7131879"
+                },
+                "company_name": "Lazizaa Chicken & Pizza",
+                "outlet_count": 22,
+                "outlet_names": [
+                    "Dukuh Kupang",
+                    "Ampel",
+                    "Kusuma Bangsa",
+                    "Jambangan",
+                    "Manyar",
+                    "Keputih",
+                    "Kebraon",
+                    "Wage",
+                    "Suko",
+                    "Ganting",
+                    "Sekardangan",
+                    "Tulangan",
+                    "Sumorame",
+                    "Wonoayu",
+                    "Sedati",
+                    "Sukodono",
+                    "Sidokare",
+                    "Wadungasri",
+                    "Legok",
+                    "Wisma Permai",
+                    "Deltasari",
+                    "Kemangsen Krian"
+                ]
+            },
+            "customer_city": [
+                "surabaya"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/13467",
+            "today_purchases_count": 3,
+            "start_date": "2017-07-25T00:00:00.000+08:00",
+            "purchases_count": 7939,
+            "original_price": 39000.0,
+            "name": "Paket 3 Roti Pilihan",
+            "last_purchased_at": "2018-05-14T09:17:59.901+08:00",
+            "id": 13467,
+            "hotness": 3160,
+            "end_date": "2018-06-30T23:59:59.999+08:00",
+            "discounted_price": 29000.0,
+            "discount": 26,
+            "description": "BreadLife kini hadir untuk memenuhi keinginan Anda yang suka banget dengan roti, dimana roti yang disajikan oleh BreadLife memiliki tekstur yang lembut dengan berbagai macam pilihan rasa mulai dari Sweetbuns, Danish, & Dry Cake. BreadLife ini hadir di kota-kota Anda mulai dari Jakarta, Tangerang, Medan, Pontianak, Surabaya, Bali dan masih banyak kota lainnya.",
+            "average_rating": "4.80",
+            "partner": {
+                "location": {
+                    "latitude": "-6.223751",
+                    "longitude": "106.70836"
+                },
+                "company_name": "BreadLife",
+                "outlet_count": 51,
+                "outlet_names": [
+                    "CBD Ciledug",
+                    "Emporium Mall Pluit",
+                    "Pejaten Village",
+                    "Central Park",
+                    "Mall Puri Indah",
+                    "Mall Taman Anggrek",
+                    "Gandaria City",
+                    "Kuningan CIty",
+                    "Gajah Mada Plaza",
+                    "Kota Kasablanka",
+                    "Plaza Atrium",
+                    "Gambir",
+                    "Lotte Shopping Avenue",
+                    "Mall Taman Palem",
+                    "Bintaro Jaya XChange Mall",
+                    "Sampoerna Strategic Square",
+                    "Mall Daan Mogot",
+                    "Lippo Mall Puri",
+                    "Plaza Bintaro Jaya",
+                    "Summarecon Mal Bekasi",
+                    "Mega Hypermall Bekasi",
+                    "Bogor Trade Mall",
+                    "Lippo Mall Karawaci",
+                    "Summarecon Mal Serpong",
+                    "Mall @Alam Sutra",
+                    "Teras Kota 2",
+                    "AEON Mall",
+                    "Jambi Town Square",
+                    "TSM Makassar",
+                    "Mall Panakkukang",
+                    "Sun Plaza",
+                    "Plaza Medan Fair",
+                    "Center Point Medan",
+                    "Ayani Megamall",
+                    "SCP Mall",
+                    "Mall Lembuswana",
+                    "Big Mall Samarinda",
+                    "Mall Ciputra",
+                    "Solo Paragon",
+                    "Tunjungan Plaza",
+                    "Ciputra World Surabaya",
+                    "Supermall Pakuwon",
+                    "Beachwalk Bali",
+                    "Ubud",
+                    "Renon Bali",
+                    "Pepito Jimbaran",
+                    "Plaza Balikpapan",
+                    "Balikpapan Trade Center",
+                    "MT Haryono Balikpapan",
+                    "PentaCity",
+                    "Duta Mall Banjarmasin"
+                ]
+            },
+            "customer_city": [
+                "surabaya",
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/surabaya/offers/22683",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-27T00:00:00.000+08:00",
+            "purchases_count": 812,
+            "original_price": 100000.0,
+            "name": "Voucher Value Rp. 100.000 For Food Only",
+            "last_purchased_at": "2018-05-13T21:19:31.657+08:00",
+            "id": 22683,
+            "hotness": 3043,
+            "end_date": "2018-05-27T23:59:59.999+08:00",
+            "discounted_price": 70000.0,
+            "discount": 30,
+            "description": "Kedai Si Mbok kini hadir di Fave untuk memberikan Anda penawaran untuk menemani makan siang dan juga makan malam Anda. Dapatkan penawaran berupa, Voucher Value sebesar Rp. 100.000 untuk semua menu makanan. Kedai Si Mbok menyediakan berbagai macam varian nasi goreng, pecel, sup dan juga berbagai sajian ikan dan ayam.",
+            "average_rating": "4.80",
+            "partner": {
+                "location": {
+                    "latitude": "-7.262218",
+                    "longitude": "112.751589"
+                },
+                "company_name": "Kedai Si Mbok",
+                "outlet_count": 4,
+                "outlet_names": [
+                    "Grand City Mall",
+                    "Ciputra World Surabaya",
+                    "City of Tomorrow",
+                    "Delta Plaza / Surabaya Plaza"
+                ]
+            },
+            "customer_city": [
+                "surabaya"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/22551",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-26T00:00:00.000+08:00",
+            "purchases_count": 6,
+            "original_price": 2497440.0,
+            "name": "3D2N in Superior Room + Breakfast",
+            "last_purchased_at": "2018-05-13T22:22:10.385+08:00",
+            "id": 22551,
+            "hotness": 165789,
+            "end_date": "2018-09-26T23:59:59.999+08:00",
+            "discounted_price": 1050000.0,
+            "discount": 58,
+            "description": "Mirah Hotel Bogor bisa menjadi pilihan Anda untuk menghabiskan waktu bersama keluarga dan juga kerabat terdekat. Mirah Hotel Bogor menyediakan layanan setara dengan hotel bintang 4.",
+            "average_rating": "4.30",
+            "partner": {
+                "location": {
+                    "latitude": "-6.583116",
+                    "longitude": "106.804443"
+                },
+                "company_name": "The Mirah Hotel Bogor",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Bogor"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/12403",
+            "today_purchases_count": 0,
+            "start_date": "2017-07-05T00:00:00.000+08:00",
+            "purchases_count": 12,
+            "original_price": 8000000.0,
+            "name": "Kuta: 5D4N in One Bedroom Suite with Plunge Pool",
+            "last_purchased_at": "2018-04-30T13:08:47.422+08:00",
+            "id": 12403,
+            "hotness": 51179,
+            "end_date": "2018-08-31T23:59:59.999+08:00",
+            "discounted_price": 1996000.0,
+            "discount": 75,
+            "description": "The Adma Umalas berada di Kerobokan (Petitenget), yang terletak dekat dengan Pantai Batu Belig, Seminyak Square, dan Canggu Club. Tidak jauh dari tempat ini juga terdapat TAKSU Bali Gallery dan Pura Petitenget yang dapat dikunjungi. Adma Umalas memiliki berbagai fasilitas yang dapat dinikmati seperti akses internet, laundry, serta fasilitas lainnya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.669178",
+                    "longitude": "115.158919"
+                },
+                "company_name": "Adma Umalas Resort",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/24019",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-23T00:00:00.000+08:00",
+            "purchases_count": 21,
+            "original_price": 5980000.0,
+            "name": "3D2N at One Bedroom Villa + Breakfast",
+            "last_purchased_at": "2018-05-13T16:45:36.003+08:00",
+            "id": 24019,
+            "hotness": 33190,
+            "end_date": "2018-09-30T23:59:59.999+08:00",
+            "discounted_price": 2256900.0,
+            "discount": 62,
+            "description": "Le Nixsun Villa & Spa kini hadir untuk menjadi pilihan menginap Anda di Bali. Le Nixsun Villa & Spa menyediakan villa dengan fasilitas bintang 4. Dengan pelayanan yang ramah, serta design kamar ala Bali akan membuat Anda semakin nyaman untuk tinggal di Le Nixsun Villa & Spa.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.81608",
+                    "longitude": "115.15136"
+                },
+                "company_name": "Le Nixsun Villa",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Ungasan"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/17421",
+            "today_purchases_count": 2,
+            "start_date": "2017-10-31T00:00:00.000+08:00",
+            "purchases_count": 52,
+            "original_price": 1600000.0,
+            "name": "Kuta: 3D2N Superior Room with Breakfast",
+            "last_purchased_at": "2018-05-14T09:49:58.444+08:00",
+            "id": 17421,
+            "hotness": 28000,
+            "end_date": "2018-12-10T23:59:59.999+08:00",
+            "discounted_price": 742000.0,
+            "discount": 54,
+            "description": "Nikmati liburan di Grand Zuri Hotel Bali, Hotel dengan bintang 4 dan desain yang kontemporer, berlokasi strategis dekat Pantai Kuta, Legian, Seminyak yang dilengkapi dengan outdoor swimming pool dan Cerenti Restaurant dengan hidangan Indonesia & Internasional.",
+            "average_rating": "3.30",
+            "partner": {
+                "location": {
+                    "latitude": "-8.711796",
+                    "longitude": "115.181583"
+                },
+                "company_name": "Grand Zuri Hotel Kuta Bali",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/5019",
+            "today_purchases_count": 0,
+            "start_date": "2016-11-04T00:00:00.000+08:00",
+            "purchases_count": 37,
+            "original_price": 1950000.0,
+            "name": "Jimbaran: Stay 4D3N in Deluxe Room (with Breakfast)",
+            "last_purchased_at": "2018-05-13T15:53:08.671+08:00",
+            "id": 5019,
+            "hotness": 26175,
+            "end_date": "2018-07-30T23:59:59.999+08:00",
+            "discounted_price": 1047000.0,
+            "discount": 46,
+            "description": "Terletak di pusat Jimbaran, Horison Jimbaran Hotel adalah tempat ideal untuk menelusuri Bali. Hanya 1.7 km dari sini, hotel bintang 3 ini dapat secara mudah diakses dari bandara.",
+            "average_rating": "2.50",
+            "partner": {
+                "location": {
+                    "latitude": "-8.76276",
+                    "longitude": "115.175198"
+                },
+                "company_name": "Horison Jimbaran Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/4525",
+            "today_purchases_count": 0,
+            "start_date": "2016-12-02T00:00:00.000+08:00",
+            "purchases_count": 85,
+            "original_price": 689000.0,
+            "name": "Singapore: Explore Sentosa Package (Include Segway Fun Ride) for Adult ",
+            "last_purchased_at": "2018-03-14T15:06:43.284+08:00",
+            "id": 4525,
+            "hotness": 20544,
+            "end_date": "2018-06-30T23:59:59.999+08:00",
+            "discounted_price": 369800.0,
+            "discount": 46,
+            "description": "Singapura adalah kota yang dikenal dengan industri pariwisatanya. Tidak kurang dari 10,2 juta wisatawan datang mengunjungi Singapura pada tahun 2007. Tempat-tempat tujuan wisata yang dapat Anda kunjungi di Singapura antara lain Merlion Park, Universal Studio, Orchard Road, Sentosa Island, Gardens by the Bay, Singapore Zoo, dan masih banyak yang lainnya.",
+            "average_rating": "4.10",
+            "partner": {
+                "location": {
+                    "latitude": "1.304613",
+                    "longitude": "103.833951"
+                },
+                "company_name": "Cebu Air Travel & Tours",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Lucky Plaza"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/3499",
+            "today_purchases_count": 0,
+            "start_date": "2017-10-01T00:00:00.000+08:00",
+            "purchases_count": 205,
+            "original_price": 1650000.0,
+            "name": "Legian: 4D3N Stay in Superior Room (Room Breakfast)",
+            "last_purchased_at": "2018-05-13T14:29:16.401+08:00",
+            "id": 3499,
+            "hotness": 13333,
+            "end_date": "2018-12-31T23:59:59.999+08:00",
+            "discounted_price": 720000.0,
+            "discount": 56,
+            "description": "The Harmony Legian Hotel merupakan hotel yang terletak hanya 8.0 Km dari pusat kota yang menyediakan fasilitas seperti kolam berenang, wifi gratis, kamar hotel yang berdisain minimal dan masih banyak lainnya. Terletak di jalan Legian yang terkanal dengan banyak club, toko dan restoran. Hanya 10 menit berjalan kaki ke Beach Walk Kuta Beach dan Joger, 15 minutes perjalanan menyetir ke Ngurah Rai Airport.",
+            "average_rating": "3.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.706724",
+                    "longitude": "115.175117"
+                },
+                "company_name": "The Harmony Legian Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/24411",
+            "today_purchases_count": 0,
+            "start_date": "2018-04-04T00:00:00.000+08:00",
+            "purchases_count": 7,
+            "original_price": 3500000.0,
+            "name": "3D2N in 1 BR Private Pool Suite + Breakfast",
+            "last_purchased_at": "2018-05-04T16:44:27.427+08:00",
+            "id": 24411,
+            "hotness": 12593,
+            "end_date": "2018-12-31T23:59:59.999+08:00",
+            "discounted_price": 1700000.0,
+            "discount": 51,
+            "description": "Marbella Pool Suites Seminyak adalah salah satu hotel bintang 4 yang bisa menjadi salah satu pilihan Anda untuk menginap bersama keluarga dan juga kerabat Anda. Marbella Pool Suites Seminyak terletak di lokasi yang strategis dekat dengan tempat wisata.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.676949",
+                    "longitude": "115.159419"
+                },
+                "company_name": "Marbella Suite Seminyak Bali",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Seminyak Bali"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/9660",
+            "today_purchases_count": 0,
+            "start_date": "2017-04-04T00:00:00.000+08:00",
+            "purchases_count": 273,
+            "original_price": 1573000.0,
+            "name": "2D1N Junior Suite Room (RO)",
+            "last_purchased_at": "2018-05-09T20:51:43.242+08:00",
+            "id": 9660,
+            "hotness": 12090,
+            "end_date": "2018-05-30T23:59:59.999+08:00",
+            "discounted_price": 943000.0,
+            "discount": 40,
+            "description": "Sahid Eminence Hotel merupakan salah satu hotel bintang 4 yang terletak di Jalan Hanjawar no. 19 Ciloto - Puncak. Mempunyai 379 kamar, Sahid Eminence Hotel dilengkapi dengan riverside restaurant, lounge & bar ,roof top restaurant, warm swimming pool yang terletak di lt. 5, swimming pool with water temperature on the ground floor, fitness center, spa, private jacuzzi, children playground.",
+            "average_rating": "2.50",
+            "partner": {
+                "location": {
+                    "latitude": "-6.702488",
+                    "longitude": "106.999"
+                },
+                "company_name": "Sahid Eminence Puncak",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Puncak West Java"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/23692",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-19T00:00:00.000+08:00",
+            "purchases_count": 41,
+            "original_price": 508000.0,
+            "name": "2D1N in Superior Room +  Breakfast",
+            "last_purchased_at": "2018-05-13T20:02:34.046+08:00",
+            "id": 23692,
+            "hotness": 11043,
+            "end_date": "2019-01-31T23:59:59.999+08:00",
+            "discounted_price": 254000.0,
+            "discount": 50,
+            "description": "Jika Anda sedang ada keperluan bisnis atau bahkan hanya berlibur di Bali. Anda dapat mencoba untuk menginap di Berry Biz Hotel. Berry Biz Hotel adalah salah satu hotel bintang business dan backpacker terbaik di Bali. Berry Biz Hotel menyediakan berbagai fasilitas yang dapat dinikmati selama Anda menginap seperti, restaurant, laudry dan aiport shuttle",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.698057",
+                    "longitude": "115.177702"
+                },
+                "company_name": "Berry Biz Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Berry Biz Hotel - Seminyak"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/23863",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-22T00:00:00.000+08:00",
+            "purchases_count": 10,
+            "original_price": 450000.0,
+            "name": "2D1N in Deluxe Room (Room Only)",
+            "last_purchased_at": "2018-05-11T18:08:20.412+08:00",
+            "id": 23863,
+            "hotness": 7842,
+            "end_date": "2018-09-22T23:59:59.999+08:00",
+            "discounted_price": 149000.0,
+            "discount": 67,
+            "description": "Nikmati Pengalaman Menginap dengan Suasana Pantai yang menenangkan. Nathan Hotel Kuta adalah sebuah hotel yang terletak di pusat Kuta, dengan desain tema kombinasi antara gaya Bali tradisional. Nathan hotel menawarkan ketenangan, kenyamanan dan keramahan dari pegawainya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.729913",
+                    "longitude": "115.170214"
+                },
+                "company_name": "Nathan Hotel Kuta - (Recommended for Backpacker)",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Nathan Hotel Kuta"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/22650",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-27T00:00:00.000+08:00",
+            "purchases_count": 60,
+            "original_price": 601667.0,
+            "name": "2D1N in Superior Room + Breakfast",
+            "last_purchased_at": "2018-05-11T17:41:40.968+08:00",
+            "id": 22650,
+            "hotness": 6903,
+            "end_date": "2018-09-27T23:59:59.999+08:00",
+            "discounted_price": 390000.0,
+            "discount": 35,
+            "description": "Jika Anda berencana untuk mencari penginapan di daerah Malang, Jawa Timur, Anda wajib untuk mencoba menginap di Whiz Prime Hotel Basuki Rahmat Malang yang mengusung tema modern dan elegant ini sangat cocok menemani perjalanan Anda bersama orang \u2013 orang terkasih di Malang. Anda juga akan mendapatkan sarapan yang lezat sebagai bonusnya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-7.969981",
+                    "longitude": "112.628452"
+                },
+                "company_name": "Whiz Prime Hotel Basuki Rahmat Malang",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Malang"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/23309",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-12T00:00:00.000+08:00",
+            "purchases_count": 41,
+            "original_price": 1800000.0,
+            "name": "2D1N in Deluxe Room + Breakfast",
+            "last_purchased_at": "2018-05-13T12:43:11.021+08:00",
+            "id": 23309,
+            "hotness": 5032,
+            "end_date": "2018-06-12T23:59:59.999+08:00",
+            "discounted_price": 624000.0,
+            "discount": 65,
+            "description": "Amaroossa Hotel Bandung merupakan salah satu hotel bintang 4 yang cocok untuk menjadi pilihan menginap Anda bersama keluarga dan juga kerabat terdekat jika mengunjungi kota Bandung. Amaroossa Hotel Bandung menyediakan fasilitas yang lengkap untuk Anda.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-6.901533",
+                    "longitude": "107.618042"
+                },
+                "company_name": "The Amaroossa Hotel Bandung",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "The Amaroossa Hotel Bandung"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/23693",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-20T00:00:00.000+08:00",
+            "purchases_count": 14,
+            "original_price": 350000.0,
+            "name": "Jakarta: 2D1N in Special Promo Room",
+            "last_purchased_at": "2018-05-13T15:43:21.575+08:00",
+            "id": 23693,
+            "hotness": 4911,
+            "end_date": "2018-09-20T23:59:59.999+08:00",
+            "discounted_price": 275000.0,
+            "discount": 21,
+            "description": "Le Green Suite Kuningan kini hadir di Fave untuk menawarkan Anda penginapan jika berkunjung ke Jakarta. Le Green Suite Kuningan menawarkan fasilitas, fasilitas lengkap, layanan berkualitas, dan pemilihan lokasi strategis.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-6.201384",
+                    "longitude": "106.827504"
+                },
+                "company_name": "Le Green Suite Kuningan",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Le Green Suite Kuningan"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bali/offers/13467",
+            "today_purchases_count": 3,
+            "start_date": "2017-07-25T00:00:00.000+08:00",
+            "purchases_count": 7939,
+            "original_price": 39000.0,
+            "name": "Paket 3 Roti Pilihan",
+            "last_purchased_at": "2018-05-14T09:17:59.901+08:00",
+            "id": 13467,
+            "hotness": 3160,
+            "end_date": "2018-06-30T23:59:59.999+08:00",
+            "discounted_price": 29000.0,
+            "discount": 26,
+            "description": "BreadLife kini hadir untuk memenuhi keinginan Anda yang suka banget dengan roti, dimana roti yang disajikan oleh BreadLife memiliki tekstur yang lembut dengan berbagai macam pilihan rasa mulai dari Sweetbuns, Danish, & Dry Cake. BreadLife ini hadir di kota-kota Anda mulai dari Jakarta, Tangerang, Medan, Pontianak, Surabaya, Bali dan masih banyak kota lainnya.",
+            "average_rating": "4.80",
+            "partner": {
+                "location": {
+                    "latitude": "-6.223751",
+                    "longitude": "106.70836"
+                },
+                "company_name": "BreadLife",
+                "outlet_count": 51,
+                "outlet_names": [
+                    "CBD Ciledug",
+                    "Emporium Mall Pluit",
+                    "Pejaten Village",
+                    "Central Park",
+                    "Mall Puri Indah",
+                    "Mall Taman Anggrek",
+                    "Gandaria City",
+                    "Kuningan CIty",
+                    "Gajah Mada Plaza",
+                    "Kota Kasablanka",
+                    "Plaza Atrium",
+                    "Gambir",
+                    "Lotte Shopping Avenue",
+                    "Mall Taman Palem",
+                    "Bintaro Jaya XChange Mall",
+                    "Sampoerna Strategic Square",
+                    "Mall Daan Mogot",
+                    "Lippo Mall Puri",
+                    "Plaza Bintaro Jaya",
+                    "Summarecon Mal Bekasi",
+                    "Mega Hypermall Bekasi",
+                    "Bogor Trade Mall",
+                    "Lippo Mall Karawaci",
+                    "Summarecon Mal Serpong",
+                    "Mall @Alam Sutra",
+                    "Teras Kota 2",
+                    "AEON Mall",
+                    "Jambi Town Square",
+                    "TSM Makassar",
+                    "Mall Panakkukang",
+                    "Sun Plaza",
+                    "Plaza Medan Fair",
+                    "Center Point Medan",
+                    "Ayani Megamall",
+                    "SCP Mall",
+                    "Mall Lembuswana",
+                    "Big Mall Samarinda",
+                    "Mall Ciputra",
+                    "Solo Paragon",
+                    "Tunjungan Plaza",
+                    "Ciputra World Surabaya",
+                    "Supermall Pakuwon",
+                    "Beachwalk Bali",
+                    "Ubud",
+                    "Renon Bali",
+                    "Pepito Jimbaran",
+                    "Plaza Balikpapan",
+                    "Balikpapan Trade Center",
+                    "MT Haryono Balikpapan",
+                    "PentaCity",
+                    "Duta Mall Banjarmasin"
+                ]
+            },
+            "customer_city": [
+                "bali"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/jakarta/offers/22551",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-26T00:00:00.000+08:00",
+            "purchases_count": 6,
+            "original_price": 2497440.0,
+            "name": "3D2N in Superior Room + Breakfast",
+            "last_purchased_at": "2018-05-13T22:22:10.385+08:00",
+            "id": 22551,
+            "hotness": 165789,
+            "end_date": "2018-09-26T23:59:59.999+08:00",
+            "discounted_price": 1050000.0,
+            "discount": 58,
+            "description": "Mirah Hotel Bogor bisa menjadi pilihan Anda untuk menghabiskan waktu bersama keluarga dan juga kerabat terdekat. Mirah Hotel Bogor menyediakan layanan setara dengan hotel bintang 4.",
+            "average_rating": "4.30",
+            "partner": {
+                "location": {
+                    "latitude": "-6.583116",
+                    "longitude": "106.804443"
+                },
+                "company_name": "The Mirah Hotel Bogor",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Bogor"
+                ]
+            },
+            "customer_city": [
+                "jakarta"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/jakarta/offers/12403",
+            "today_purchases_count": 0,
+            "start_date": "2017-07-05T00:00:00.000+08:00",
+            "purchases_count": 12,
+            "original_price": 8000000.0,
+            "name": "Kuta: 5D4N in One Bedroom Suite with Plunge Pool",
+            "last_purchased_at": "2018-04-30T13:08:47.422+08:00",
+            "id": 12403,
+            "hotness": 51179,
+            "end_date": "2018-08-31T23:59:59.999+08:00",
+            "discounted_price": 1996000.0,
+            "discount": 75,
+            "description": "The Adma Umalas berada di Kerobokan (Petitenget), yang terletak dekat dengan Pantai Batu Belig, Seminyak Square, dan Canggu Club. Tidak jauh dari tempat ini juga terdapat TAKSU Bali Gallery dan Pura Petitenget yang dapat dikunjungi. Adma Umalas memiliki berbagai fasilitas yang dapat dinikmati seperti akses internet, laundry, serta fasilitas lainnya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.669178",
+                    "longitude": "115.158919"
+                },
+                "company_name": "Adma Umalas Resort",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "jakarta"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/jakarta/offers/24019",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-23T00:00:00.000+08:00",
+            "purchases_count": 21,
+            "original_price": 5980000.0,
+            "name": "3D2N at One Bedroom Villa + Breakfast",
+            "last_purchased_at": "2018-05-13T16:45:36.003+08:00",
+            "id": 24019,
+            "hotness": 33190,
+            "end_date": "2018-09-30T23:59:59.999+08:00",
+            "discounted_price": 2256900.0,
+            "discount": 62,
+            "description": "Le Nixsun Villa & Spa kini hadir untuk menjadi pilihan menginap Anda di Bali. Le Nixsun Villa & Spa menyediakan villa dengan fasilitas bintang 4. Dengan pelayanan yang ramah, serta design kamar ala Bali akan membuat Anda semakin nyaman untuk tinggal di Le Nixsun Villa & Spa.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.81608",
+                    "longitude": "115.15136"
+                },
+                "company_name": "Le Nixsun Villa",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Ungasan"
+                ]
+            },
+            "customer_city": [
+                "jakarta"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/jakarta/offers/17421",
+            "today_purchases_count": 2,
+            "start_date": "2017-10-31T00:00:00.000+08:00",
+            "purchases_count": 52,
+            "original_price": 1600000.0,
+            "name": "Kuta: 3D2N Superior Room with Breakfast",
+            "last_purchased_at": "2018-05-14T09:49:58.444+08:00",
+            "id": 17421,
+            "hotness": 28000,
+            "end_date": "2018-12-10T23:59:59.999+08:00",
+            "discounted_price": 742000.0,
+            "discount": 54,
+            "description": "Nikmati liburan di Grand Zuri Hotel Bali, Hotel dengan bintang 4 dan desain yang kontemporer, berlokasi strategis dekat Pantai Kuta, Legian, Seminyak yang dilengkapi dengan outdoor swimming pool dan Cerenti Restaurant dengan hidangan Indonesia & Internasional.",
+            "average_rating": "3.30",
+            "partner": {
+                "location": {
+                    "latitude": "-8.711796",
+                    "longitude": "115.181583"
+                },
+                "company_name": "Grand Zuri Hotel Kuta Bali",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "jakarta"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/jakarta/offers/5019",
+            "today_purchases_count": 0,
+            "start_date": "2016-11-04T00:00:00.000+08:00",
+            "purchases_count": 37,
+            "original_price": 1950000.0,
+            "name": "Jimbaran: Stay 4D3N in Deluxe Room (with Breakfast)",
+            "last_purchased_at": "2018-05-13T15:53:08.671+08:00",
+            "id": 5019,
+            "hotness": 26175,
+            "end_date": "2018-07-30T23:59:59.999+08:00",
+            "discounted_price": 1047000.0,
+            "discount": 46,
+            "description": "Terletak di pusat Jimbaran, Horison Jimbaran Hotel adalah tempat ideal untuk menelusuri Bali. Hanya 1.7 km dari sini, hotel bintang 3 ini dapat secara mudah diakses dari bandara.",
+            "average_rating": "2.50",
+            "partner": {
+                "location": {
+                    "latitude": "-8.76276",
+                    "longitude": "115.175198"
+                },
+                "company_name": "Horison Jimbaran Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "jakarta"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/jakarta/offers/4525",
+            "today_purchases_count": 0,
+            "start_date": "2016-12-02T00:00:00.000+08:00",
+            "purchases_count": 85,
+            "original_price": 689000.0,
+            "name": "Singapore: Explore Sentosa Package (Include Segway Fun Ride) for Adult ",
+            "last_purchased_at": "2018-03-14T15:06:43.284+08:00",
+            "id": 4525,
+            "hotness": 20544,
+            "end_date": "2018-06-30T23:59:59.999+08:00",
+            "discounted_price": 369800.0,
+            "discount": 46,
+            "description": "Singapura adalah kota yang dikenal dengan industri pariwisatanya. Tidak kurang dari 10,2 juta wisatawan datang mengunjungi Singapura pada tahun 2007. Tempat-tempat tujuan wisata yang dapat Anda kunjungi di Singapura antara lain Merlion Park, Universal Studio, Orchard Road, Sentosa Island, Gardens by the Bay, Singapore Zoo, dan masih banyak yang lainnya.",
+            "average_rating": "4.10",
+            "partner": {
+                "location": {
+                    "latitude": "1.304613",
+                    "longitude": "103.833951"
+                },
+                "company_name": "Cebu Air Travel & Tours",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Lucky Plaza"
+                ]
+            },
+            "customer_city": [
+                "jakarta"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/medan/offers/22551",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-26T00:00:00.000+08:00",
+            "purchases_count": 6,
+            "original_price": 2497440.0,
+            "name": "3D2N in Superior Room + Breakfast",
+            "last_purchased_at": "2018-05-13T22:22:10.385+08:00",
+            "id": 22551,
+            "hotness": 165789,
+            "end_date": "2018-09-26T23:59:59.999+08:00",
+            "discounted_price": 1050000.0,
+            "discount": 58,
+            "description": "Mirah Hotel Bogor bisa menjadi pilihan Anda untuk menghabiskan waktu bersama keluarga dan juga kerabat terdekat. Mirah Hotel Bogor menyediakan layanan setara dengan hotel bintang 4.",
+            "average_rating": "4.30",
+            "partner": {
+                "location": {
+                    "latitude": "-6.583116",
+                    "longitude": "106.804443"
+                },
+                "company_name": "The Mirah Hotel Bogor",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Bogor"
+                ]
+            },
+            "customer_city": [
+                "medan"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/medan/offers/24411",
+            "today_purchases_count": 0,
+            "start_date": "2018-04-04T00:00:00.000+08:00",
+            "purchases_count": 7,
+            "original_price": 3500000.0,
+            "name": "3D2N in 1 BR Private Pool Suite + Breakfast",
+            "last_purchased_at": "2018-05-04T16:44:27.427+08:00",
+            "id": 24411,
+            "hotness": 12593,
+            "end_date": "2018-12-31T23:59:59.999+08:00",
+            "discounted_price": 1700000.0,
+            "discount": 51,
+            "description": "Marbella Pool Suites Seminyak adalah salah satu hotel bintang 4 yang bisa menjadi salah satu pilihan Anda untuk menginap bersama keluarga dan juga kerabat Anda. Marbella Pool Suites Seminyak terletak di lokasi yang strategis dekat dengan tempat wisata.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.676949",
+                    "longitude": "115.159419"
+                },
+                "company_name": "Marbella Suite Seminyak Bali",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Seminyak Bali"
+                ]
+            },
+            "customer_city": [
+                "medan"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/medan/offers/23863",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-22T00:00:00.000+08:00",
+            "purchases_count": 10,
+            "original_price": 450000.0,
+            "name": "2D1N in Deluxe Room (Room Only)",
+            "last_purchased_at": "2018-05-11T18:08:20.412+08:00",
+            "id": 23863,
+            "hotness": 7842,
+            "end_date": "2018-09-22T23:59:59.999+08:00",
+            "discounted_price": 149000.0,
+            "discount": 67,
+            "description": "Nikmati Pengalaman Menginap dengan Suasana Pantai yang menenangkan. Nathan Hotel Kuta adalah sebuah hotel yang terletak di pusat Kuta, dengan desain tema kombinasi antara gaya Bali tradisional. Nathan hotel menawarkan ketenangan, kenyamanan dan keramahan dari pegawainya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.729913",
+                    "longitude": "115.170214"
+                },
+                "company_name": "Nathan Hotel Kuta - (Recommended for Backpacker)",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Nathan Hotel Kuta"
+                ]
+            },
+            "customer_city": [
+                "medan"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/medan/offers/22650",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-27T00:00:00.000+08:00",
+            "purchases_count": 60,
+            "original_price": 601667.0,
+            "name": "2D1N in Superior Room + Breakfast",
+            "last_purchased_at": "2018-05-11T17:41:40.968+08:00",
+            "id": 22650,
+            "hotness": 6903,
+            "end_date": "2018-09-27T23:59:59.999+08:00",
+            "discounted_price": 390000.0,
+            "discount": 35,
+            "description": "Jika Anda berencana untuk mencari penginapan di daerah Malang, Jawa Timur, Anda wajib untuk mencoba menginap di Whiz Prime Hotel Basuki Rahmat Malang yang mengusung tema modern dan elegant ini sangat cocok menemani perjalanan Anda bersama orang \u2013 orang terkasih di Malang. Anda juga akan mendapatkan sarapan yang lezat sebagai bonusnya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-7.969981",
+                    "longitude": "112.628452"
+                },
+                "company_name": "Whiz Prime Hotel Basuki Rahmat Malang",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Malang"
+                ]
+            },
+            "customer_city": [
+                "medan"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/medan/offers/23309",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-12T00:00:00.000+08:00",
+            "purchases_count": 41,
+            "original_price": 1800000.0,
+            "name": "2D1N in Deluxe Room + Breakfast",
+            "last_purchased_at": "2018-05-13T12:43:11.021+08:00",
+            "id": 23309,
+            "hotness": 5032,
+            "end_date": "2018-06-12T23:59:59.999+08:00",
+            "discounted_price": 624000.0,
+            "discount": 65,
+            "description": "Amaroossa Hotel Bandung merupakan salah satu hotel bintang 4 yang cocok untuk menjadi pilihan menginap Anda bersama keluarga dan juga kerabat terdekat jika mengunjungi kota Bandung. Amaroossa Hotel Bandung menyediakan fasilitas yang lengkap untuk Anda.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-6.901533",
+                    "longitude": "107.618042"
+                },
+                "company_name": "The Amaroossa Hotel Bandung",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "The Amaroossa Hotel Bandung"
+                ]
+            },
+            "customer_city": [
+                "medan"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/medan/offers/23693",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-20T00:00:00.000+08:00",
+            "purchases_count": 14,
+            "original_price": 350000.0,
+            "name": "Jakarta: 2D1N in Special Promo Room",
+            "last_purchased_at": "2018-05-13T15:43:21.575+08:00",
+            "id": 23693,
+            "hotness": 4911,
+            "end_date": "2018-09-20T23:59:59.999+08:00",
+            "discounted_price": 275000.0,
+            "discount": 21,
+            "description": "Le Green Suite Kuningan kini hadir di Fave untuk menawarkan Anda penginapan jika berkunjung ke Jakarta. Le Green Suite Kuningan menawarkan fasilitas, fasilitas lengkap, layanan berkualitas, dan pemilihan lokasi strategis.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-6.201384",
+                    "longitude": "106.827504"
+                },
+                "company_name": "Le Green Suite Kuningan",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Le Green Suite Kuningan"
+                ]
+            },
+            "customer_city": [
+                "medan"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/22551",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-26T00:00:00.000+08:00",
+            "purchases_count": 6,
+            "original_price": 2497440.0,
+            "name": "3D2N in Superior Room + Breakfast",
+            "last_purchased_at": "2018-05-13T22:22:10.385+08:00",
+            "id": 22551,
+            "hotness": 165789,
+            "end_date": "2018-09-26T23:59:59.999+08:00",
+            "discounted_price": 1050000.0,
+            "discount": 58,
+            "description": "Mirah Hotel Bogor bisa menjadi pilihan Anda untuk menghabiskan waktu bersama keluarga dan juga kerabat terdekat. Mirah Hotel Bogor menyediakan layanan setara dengan hotel bintang 4.",
+            "average_rating": "4.30",
+            "partner": {
+                "location": {
+                    "latitude": "-6.583116",
+                    "longitude": "106.804443"
+                },
+                "company_name": "The Mirah Hotel Bogor",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Bogor"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/12403",
+            "today_purchases_count": 0,
+            "start_date": "2017-07-05T00:00:00.000+08:00",
+            "purchases_count": 12,
+            "original_price": 8000000.0,
+            "name": "Kuta: 5D4N in One Bedroom Suite with Plunge Pool",
+            "last_purchased_at": "2018-04-30T13:08:47.422+08:00",
+            "id": 12403,
+            "hotness": 51179,
+            "end_date": "2018-08-31T23:59:59.999+08:00",
+            "discounted_price": 1996000.0,
+            "discount": 75,
+            "description": "The Adma Umalas berada di Kerobokan (Petitenget), yang terletak dekat dengan Pantai Batu Belig, Seminyak Square, dan Canggu Club. Tidak jauh dari tempat ini juga terdapat TAKSU Bali Gallery dan Pura Petitenget yang dapat dikunjungi. Adma Umalas memiliki berbagai fasilitas yang dapat dinikmati seperti akses internet, laundry, serta fasilitas lainnya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.669178",
+                    "longitude": "115.158919"
+                },
+                "company_name": "Adma Umalas Resort",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/24019",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-23T00:00:00.000+08:00",
+            "purchases_count": 21,
+            "original_price": 5980000.0,
+            "name": "3D2N at One Bedroom Villa + Breakfast",
+            "last_purchased_at": "2018-05-13T16:45:36.003+08:00",
+            "id": 24019,
+            "hotness": 33190,
+            "end_date": "2018-09-30T23:59:59.999+08:00",
+            "discounted_price": 2256900.0,
+            "discount": 62,
+            "description": "Le Nixsun Villa & Spa kini hadir untuk menjadi pilihan menginap Anda di Bali. Le Nixsun Villa & Spa menyediakan villa dengan fasilitas bintang 4. Dengan pelayanan yang ramah, serta design kamar ala Bali akan membuat Anda semakin nyaman untuk tinggal di Le Nixsun Villa & Spa.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.81608",
+                    "longitude": "115.15136"
+                },
+                "company_name": "Le Nixsun Villa",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Ungasan"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/17421",
+            "today_purchases_count": 2,
+            "start_date": "2017-10-31T00:00:00.000+08:00",
+            "purchases_count": 52,
+            "original_price": 1600000.0,
+            "name": "Kuta: 3D2N Superior Room with Breakfast",
+            "last_purchased_at": "2018-05-14T09:49:58.444+08:00",
+            "id": 17421,
+            "hotness": 28000,
+            "end_date": "2018-12-10T23:59:59.999+08:00",
+            "discounted_price": 742000.0,
+            "discount": 54,
+            "description": "Nikmati liburan di Grand Zuri Hotel Bali, Hotel dengan bintang 4 dan desain yang kontemporer, berlokasi strategis dekat Pantai Kuta, Legian, Seminyak yang dilengkapi dengan outdoor swimming pool dan Cerenti Restaurant dengan hidangan Indonesia & Internasional.",
+            "average_rating": "3.30",
+            "partner": {
+                "location": {
+                    "latitude": "-8.711796",
+                    "longitude": "115.181583"
+                },
+                "company_name": "Grand Zuri Hotel Kuta Bali",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/5019",
+            "today_purchases_count": 0,
+            "start_date": "2016-11-04T00:00:00.000+08:00",
+            "purchases_count": 37,
+            "original_price": 1950000.0,
+            "name": "Jimbaran: Stay 4D3N in Deluxe Room (with Breakfast)",
+            "last_purchased_at": "2018-05-13T15:53:08.671+08:00",
+            "id": 5019,
+            "hotness": 26175,
+            "end_date": "2018-07-30T23:59:59.999+08:00",
+            "discounted_price": 1047000.0,
+            "discount": 46,
+            "description": "Terletak di pusat Jimbaran, Horison Jimbaran Hotel adalah tempat ideal untuk menelusuri Bali. Hanya 1.7 km dari sini, hotel bintang 3 ini dapat secara mudah diakses dari bandara.",
+            "average_rating": "2.50",
+            "partner": {
+                "location": {
+                    "latitude": "-8.76276",
+                    "longitude": "115.175198"
+                },
+                "company_name": "Horison Jimbaran Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/4525",
+            "today_purchases_count": 0,
+            "start_date": "2016-12-02T00:00:00.000+08:00",
+            "purchases_count": 85,
+            "original_price": 689000.0,
+            "name": "Singapore: Explore Sentosa Package (Include Segway Fun Ride) for Adult ",
+            "last_purchased_at": "2018-03-14T15:06:43.284+08:00",
+            "id": 4525,
+            "hotness": 20544,
+            "end_date": "2018-06-30T23:59:59.999+08:00",
+            "discounted_price": 369800.0,
+            "discount": 46,
+            "description": "Singapura adalah kota yang dikenal dengan industri pariwisatanya. Tidak kurang dari 10,2 juta wisatawan datang mengunjungi Singapura pada tahun 2007. Tempat-tempat tujuan wisata yang dapat Anda kunjungi di Singapura antara lain Merlion Park, Universal Studio, Orchard Road, Sentosa Island, Gardens by the Bay, Singapore Zoo, dan masih banyak yang lainnya.",
+            "average_rating": "4.10",
+            "partner": {
+                "location": {
+                    "latitude": "1.304613",
+                    "longitude": "103.833951"
+                },
+                "company_name": "Cebu Air Travel & Tours",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Lucky Plaza"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/3499",
+            "today_purchases_count": 0,
+            "start_date": "2017-10-01T00:00:00.000+08:00",
+            "purchases_count": 205,
+            "original_price": 1650000.0,
+            "name": "Legian: 4D3N Stay in Superior Room (Room Breakfast)",
+            "last_purchased_at": "2018-05-13T14:29:16.401+08:00",
+            "id": 3499,
+            "hotness": 13333,
+            "end_date": "2018-12-31T23:59:59.999+08:00",
+            "discounted_price": 720000.0,
+            "discount": 56,
+            "description": "The Harmony Legian Hotel merupakan hotel yang terletak hanya 8.0 Km dari pusat kota yang menyediakan fasilitas seperti kolam berenang, wifi gratis, kamar hotel yang berdisain minimal dan masih banyak lainnya. Terletak di jalan Legian yang terkanal dengan banyak club, toko dan restoran. Hanya 10 menit berjalan kaki ke Beach Walk Kuta Beach dan Joger, 15 minutes perjalanan menyetir ke Ngurah Rai Airport.",
+            "average_rating": "3.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.706724",
+                    "longitude": "115.175117"
+                },
+                "company_name": "The Harmony Legian Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Kuta"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/24411",
+            "today_purchases_count": 0,
+            "start_date": "2018-04-04T00:00:00.000+08:00",
+            "purchases_count": 7,
+            "original_price": 3500000.0,
+            "name": "3D2N in 1 BR Private Pool Suite + Breakfast",
+            "last_purchased_at": "2018-05-04T16:44:27.427+08:00",
+            "id": 24411,
+            "hotness": 12593,
+            "end_date": "2018-12-31T23:59:59.999+08:00",
+            "discounted_price": 1700000.0,
+            "discount": 51,
+            "description": "Marbella Pool Suites Seminyak adalah salah satu hotel bintang 4 yang bisa menjadi salah satu pilihan Anda untuk menginap bersama keluarga dan juga kerabat Anda. Marbella Pool Suites Seminyak terletak di lokasi yang strategis dekat dengan tempat wisata.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.676949",
+                    "longitude": "115.159419"
+                },
+                "company_name": "Marbella Suite Seminyak Bali",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Seminyak Bali"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/9660",
+            "today_purchases_count": 0,
+            "start_date": "2017-04-04T00:00:00.000+08:00",
+            "purchases_count": 273,
+            "original_price": 1573000.0,
+            "name": "2D1N Junior Suite Room (RO)",
+            "last_purchased_at": "2018-05-09T20:51:43.242+08:00",
+            "id": 9660,
+            "hotness": 12090,
+            "end_date": "2018-05-30T23:59:59.999+08:00",
+            "discounted_price": 943000.0,
+            "discount": 40,
+            "description": "Sahid Eminence Hotel merupakan salah satu hotel bintang 4 yang terletak di Jalan Hanjawar no. 19 Ciloto - Puncak. Mempunyai 379 kamar, Sahid Eminence Hotel dilengkapi dengan riverside restaurant, lounge & bar ,roof top restaurant, warm swimming pool yang terletak di lt. 5, swimming pool with water temperature on the ground floor, fitness center, spa, private jacuzzi, children playground.",
+            "average_rating": "2.50",
+            "partner": {
+                "location": {
+                    "latitude": "-6.702488",
+                    "longitude": "106.999"
+                },
+                "company_name": "Sahid Eminence Puncak",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Puncak West Java"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/23692",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-19T00:00:00.000+08:00",
+            "purchases_count": 41,
+            "original_price": 508000.0,
+            "name": "2D1N in Superior Room +  Breakfast",
+            "last_purchased_at": "2018-05-13T20:02:34.046+08:00",
+            "id": 23692,
+            "hotness": 11043,
+            "end_date": "2019-01-31T23:59:59.999+08:00",
+            "discounted_price": 254000.0,
+            "discount": 50,
+            "description": "Jika Anda sedang ada keperluan bisnis atau bahkan hanya berlibur di Bali. Anda dapat mencoba untuk menginap di Berry Biz Hotel. Berry Biz Hotel adalah salah satu hotel bintang business dan backpacker terbaik di Bali. Berry Biz Hotel menyediakan berbagai fasilitas yang dapat dinikmati selama Anda menginap seperti, restaurant, laudry dan aiport shuttle",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.698057",
+                    "longitude": "115.177702"
+                },
+                "company_name": "Berry Biz Hotel",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Berry Biz Hotel - Seminyak"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/23863",
+            "today_purchases_count": 0,
+            "start_date": "2018-03-22T00:00:00.000+08:00",
+            "purchases_count": 10,
+            "original_price": 450000.0,
+            "name": "2D1N in Deluxe Room (Room Only)",
+            "last_purchased_at": "2018-05-11T18:08:20.412+08:00",
+            "id": 23863,
+            "hotness": 7842,
+            "end_date": "2018-09-22T23:59:59.999+08:00",
+            "discounted_price": 149000.0,
+            "discount": 67,
+            "description": "Nikmati Pengalaman Menginap dengan Suasana Pantai yang menenangkan. Nathan Hotel Kuta adalah sebuah hotel yang terletak di pusat Kuta, dengan desain tema kombinasi antara gaya Bali tradisional. Nathan hotel menawarkan ketenangan, kenyamanan dan keramahan dari pegawainya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-8.729913",
+                    "longitude": "115.170214"
+                },
+                "company_name": "Nathan Hotel Kuta - (Recommended for Backpacker)",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Nathan Hotel Kuta"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/22650",
+            "today_purchases_count": 0,
+            "start_date": "2018-02-27T00:00:00.000+08:00",
+            "purchases_count": 60,
+            "original_price": 601667.0,
+            "name": "2D1N in Superior Room + Breakfast",
+            "last_purchased_at": "2018-05-11T17:41:40.968+08:00",
+            "id": 22650,
+            "hotness": 6903,
+            "end_date": "2018-09-27T23:59:59.999+08:00",
+            "discounted_price": 390000.0,
+            "discount": 35,
+            "description": "Jika Anda berencana untuk mencari penginapan di daerah Malang, Jawa Timur, Anda wajib untuk mencoba menginap di Whiz Prime Hotel Basuki Rahmat Malang yang mengusung tema modern dan elegant ini sangat cocok menemani perjalanan Anda bersama orang \u2013 orang terkasih di Malang. Anda juga akan mendapatkan sarapan yang lezat sebagai bonusnya.",
+            "average_rating": "0.00",
+            "partner": {
+                "location": {
+                    "latitude": "-7.969981",
+                    "longitude": "112.628452"
+                },
+                "company_name": "Whiz Prime Hotel Basuki Rahmat Malang",
+                "outlet_count": 1,
+                "outlet_names": [
+                    "Malang"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        },
+        {
+            "url": "/cities/bandung/offers/18049",
+            "today_purchases_count": 0,
+            "start_date": "2017-11-20T00:00:00.000+08:00",
+            "purchases_count": 2457,
+            "original_price": 680000.0,
+            "name": "2x Trial Sessions + Free Body Composition Analysis",
+            "last_purchased_at": "2018-05-13T23:37:50.399+08:00",
+            "id": 18049,
+            "hotness": 6058,
+            "end_date": "2018-06-20T23:59:59.999+08:00",
+            "discounted_price": 189000.0,
+            "discount": 72,
+            "description": "20FIT kini hadir dengan memberikan promo khusus untuk 2x Trial Sessions + Free Body Composition Analysis! Tiap sesi akan berlangsung selama 20 menit namun setara dengan 2 \u2013 4 latihan di gym conventional. EMS (Electro Muscle Stimulation) sendiri bekerja dengan mentransmisi aliran listrik berintensitas rendah ke otot tubuh yang digunakan untuk membangun otot dan membakar lemak. Setiap sesi latihan akan dibimbing oleh instruktur berpengalaman khusus, untuk mendapatkan hasil latihan yang maksimal.",
+            "average_rating": "4.80",
+            "partner": {
+                "location": {
+                    "latitude": "-6.277776",
+                    "longitude": "106.799273"
+                },
+                "company_name": "20Fit",
+                "outlet_count": 20,
+                "outlet_names": [
+                    "Cipete",
+                    "Central Park",
+                    "Puri",
+                    "Menteng",
+                    "Senayan",
+                    "Setiabudi",
+                    "SCBD",
+                    "Pondok Indah",
+                    "Tebet",
+                    "Pantai Indah Kapuk",
+                    "Sunter",
+                    "Gading Serpong",
+                    "Bandung",
+                    "Surabaya Timur",
+                    "Bintaro",
+                    "Yogyakarta",
+                    "Medan Polonia",
+                    "Semarang",
+                    "Bali",
+                    "Palembang"
+                ]
+            },
+            "customer_city": [
+                "bandung"
+            ],
+            "category": "dummy"
+        }
+    ]
+}

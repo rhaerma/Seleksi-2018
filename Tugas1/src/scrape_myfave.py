@@ -1,126 +1,120 @@
-import re
+""" MYFAVE BEST DEALS COUPON SCRAPPER
+"""
+
 import json
-import scrapper
+import utils
 import random
 
 cities = ['bandung', 'jakarta', 'bali', 'medan', 'surabaya']
 home_url = 'https://myfave.com'
 data_per_page = 24
 allCouponList = []
+# Regex for Parsing
 main_div = r'OffersViewNonCat'
-categ_div = r'BuyNowSticky'
+detail_div = r'BuyNowSticky'
+data_script = r'.*listings: \[{(.*)}\],\n'
+numpage_script = r'.*meta: ".*",'
+category_script = r'"category":{"name":(.*),"id"'
+
+## Scrape coupons from various cities
+## If isRequestAll to request all pages each city
+def scrapeAllCoupons(cities, isRequestAll):
+    allCouponList = []
+    for city in cities:
+        url = home_url+'/cities/'+city+'/best-selling-deals'
+        print('\n >>>> Scrape best deals in ' + city)
+        localCouponList = scrapeMultiPages(url, isRequestAll) # Get coupon data from current city
+        currCouponList = allCouponList
+        allCouponList = mergeCouponLists(currCouponList, localCouponList)
+    return allCouponList
 
 ## Scrape pages 
 ## return couponList json object
-def scrapeMultiPages(url):
-    counter = 1
+def scrapeMultiPages(url, isRequestAll):
+    counter = 1     # Control timelimit for scrapper
     i = 1
-    print(' -- Scrape Page ' + str(i))
-    soup = scrapper.getRawSource(url, counter)
+    print(' >>> Scrape Page ' + str(i))
+    soup = utils.getRawSource(url, counter)
     localCouponList = parseMainPage(soup)
-    # Find total pages
-    '''
-    result = getTextPattern(soup, main_div, r'.*meta: ".*",')
-    sumData = int(result.group(0).split('"'))
-    numPage = round(sumData/data_per_page)
-    '''
-    numPage = 1
-    # Scrape all pages
-    while (i < numPage):
+    if (isRequestAll):
+        # Find total pages
+        result = utils.getTextPattern(soup, main_div, numpage_script)
+        sum_data = int(result.group(0).split('"'))
+        page_count = round(sum_data/data_per_page)
+        num_page = page_count
+    else:
+        num_page = 1
+    # Scrape pages
+    while (i < num_page):
         counter += 1
         i += 1
         urlNext = url+'?page='+str(i)
-        print(' -- Scrape Page ' + str(i))
-        soup = scrapper.getRawSource(urlNext, counter)
+        print(' >>> Scrape Page ' + str(i))
+        soup = utils.getRawSource(urlNext, counter)
         nextCouponList = parseMainPage(soup)
-        currCouponList = localCouponList
-        localCouponList = uniteCouponLists(currCouponList, nextCouponList)
-
+        localCouponList += nextCouponList
     return localCouponList
-
-# Unite two coupon lists
-def uniteCouponLists(couponList1, couponList2):
-    for coupon in couponList2:
-        couponList1.append(coupon)
-    return couponList1
-
-## Return string contains regex from soup object
-def getTextPattern(soup, div_id, regex):
-    pattern = re.compile(div_id)
-    rawData = soup.find('script', text=pattern) #Get certain data inside <script> tag
-    result = re.search(regex, str(rawData))
-    return result
     
-## Parse page of item thumbnails on html form to json object
-## soup: BeautifulSoup object contains web view-source
+## Parse page of item thumbnails on BeautifulSoup form to json object
 ## return couponList: JSONObject of best deals on current page
 def parseMainPage(soup):
-    result = getTextPattern(soup, main_div, r'.*listings: \[{(.*)}\],\n')
-    #print(str(result))
+    result = utils.getTextPattern(soup, main_div, data_script)
     jsonStr = '[{' + result.group(1) + '}]'
     couponList = json.loads(jsonStr)
-
     couponList = formCouponList(couponList)
     return couponList
 
-## Add and modificate fields in couponList
-## couponList: coupon JSONObject
+## Add and format fields in couponList
 ## return couponList with formatted fields
 def formCouponList(couponList):
-    #for coupon in couponList:
-    for i in range(0, 1):
-        coupon = couponList[i]
+    for coupon in couponList:
         coupon = formatCoupon(coupon)
-        coupon = scrapePageDetail(coupon)
-
+        coupon = scrapePageDetail(coupon) #get details of each item
     return couponList
 
-## Scrape page detail of coupon item
-def scrapePageDetail(coupon):
-    url = home_url+coupon['url']
-    print(' - Scrape item '+ url)
-    soup = scrapper.getRawSource(url, 1)
-    #Get Category
-    result = getTextPattern(soup, categ_div, r'"category":{"name":(.*),"id"')
-    coupon['category'] = result.group(1).split('"')[1]
-    #Get partner reputation
-    return coupon
-
-## Remove unnecessary and modificate coupon fields
-## return formatted coupon
+## Return formatted coupon with neccessary fields added
 def formatCoupon(coupon):
-    #format price
-    coupon['discounted_price'] = coupon['discounted_price_cents']/100
-    coupon['original_price'] = coupon['original_price_cents']/100
-    #format partner
-    coupon['partner'] = {}
-    coupon['partner']['location'] = {}
-    coupon['partner']['company_name'] = coupon['company_name']
-    coupon['partner']['location']['latitude'] = coupon['latitude']
-    coupon['partner']['location']['longitude'] = coupon['longitude']
-    coupon['partner']['outlet_count'] = coupon['outlets_count']
-    coupon['partner']['outlet_names'] = coupon['outlet_names']
-    #delete unnecessary fields
-    del coupon['discounted_price_cents']
-    del coupon['original_price_cents']
-    del coupon['company_name']
-    del coupon['outlets_count']
-    del coupon['outlet_names']
-    del coupon['latitude']
-    del coupon['longitude']
-    del coupon['company_id']
-    del coupon['image']
-    del coupon['distance']
-    del coupon['time_diff']
-    del coupon['thumbnail']
-    del coupon['slug']
-    del coupon['rectangular_thumbnail']
-    del coupon['featured_thumbnail_image']
+    newCoupon = {}
+    newCoupon['id'] = coupon['id']
+    newCoupon['title'] = coupon['name']
+    newCoupon['description'] = coupon['description']
+    newCoupon['original_price'] = coupon['original_price_cents']/100
+    newCoupon['discounted_price'] = coupon['discounted_price_cents']/100
+    newCoupon['discount'] = coupon['discount']
+    newCoupon['start_date'] = coupon['start_date']
+    newCoupon['due_date'] = coupon['end_date']
+    newCoupon['purchases_count'] = coupon['purchases_count']
+    newCoupon['today_purchases_count'] = coupon['today_purchases_count']
+    newCoupon['last_purchased_at'] = coupon['last_purchased_at']
+
+    newCoupon['partner'] = {}
+    newCoupon['partner']['company_name'] = coupon['company_name']
+    newCoupon['partner']['location'] = {}
+    newCoupon['partner']['location']['latitude'] = coupon['latitude']
+    newCoupon['partner']['location']['longitude'] = coupon['longitude']
+    newCoupon['partner']['outlet_count'] = coupon['outlets_count']
+    newCoupon['partner']['outlet_names'] = coupon['outlet_names']
+
+    newCoupon['average_rating'] = coupon['average_rating']
+    newCoupon['number_of_click'] = coupon['hotness']
 
     city = coupon['url'].split('/')[2]
-    coupon['customer_city'] = []
-    coupon['customer_city'].append(city)
+    newCoupon['customer_city'] = [city]
 
+    # Just in case needed
+    #newCoupon['image']
+    #newCoupon['thumbnail']
+    return newCoupon
+
+## Scrape detail page of a coupon item
+def scrapePageDetail(coupon):
+    url = home_url+'/cities/'+coupon['customer_city'][0]+'/offers/'+str(coupon['id'])
+    print(' - Scrape item '+ url)
+    soup = utils.getRawSource(url, 1)
+    #Get Category
+    result = utils.getTextPattern(soup, detail_div, category_script)
+    coupon['category'] = result.group(1).split('"')[1]
+    #Get partner reputation
     return coupon
 
 ## Check if a coupon object already on couponList
@@ -132,49 +126,40 @@ def checkCouponOccurence(coupon, couponList):
             return i
         else:
             i += 1
-
     return -1
 
 ## Merge multiple occurence of coupon from multiple cities
 ## Return allCouponList
 def mergeCouponLists(allCouponList, couponList):
-    if (allCouponList != {}):
+    if (allCouponList != []):
         for coupon in couponList:
             idx = checkCouponOccurence(coupon, allCouponList)
             if (idx != -1):
                 allCouponList.append(coupon)
-                print(coupon)
                 allCouponList[idx]['customer_city'] += coupon['customer_city']
     else:
         allCouponList = couponList
-
     return allCouponList
 
 ## Collect list based on category
 ## Return finalCouponList ready to be saved on JSON file
 def categorizeCouponList(allCouponList):
-    finalCouponList = []
+    finalCouponList = {}
     for coupon in allCouponList:
         category = coupon['category']
         if (category not in finalCouponList):
             finalCouponList[category] = []
         finalCouponList[category].append(coupon)
-
     return finalCouponList
 
 ## Main Program
 if __name__ == '__main__':
+    cities, isRequestAll = utils.controlArgv(cities)
+    # Control args
     random.shuffle(cities)
-    ## Scrape data from various cities
-    for city in cities:
-        url = home_url+'/cities/'+city+'/best-selling-deals'
-        print(' --- Scrape Best Deals in ' + city)
-        localCouponList = scrapeMultiPages(url) # Get coupon data from current city 
-        currCouponList = allCouponList
-        allCouponList = mergeCouponLists(currCouponList, localCouponList)
-    # Categorize Coupon
-    scrapper.saveJSONToFile(allCouponList)
+    # Scrape data from various cities
+    allCouponList = scrapeAllCoupons(cities, isRequestAll)
+    # Categorize list of coupon
     allCouponList = categorizeCouponList(allCouponList)
-    print(allCouponList)
     # Save to File
-    scrapper.saveJSONToFile(allCouponList)
+    utils.saveJSONToFile(allCouponList)

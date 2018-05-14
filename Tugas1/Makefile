@@ -1,4 +1,6 @@
 all: clean build run
+	 $(shell cd $(BIN); ls)
+	python scrape_myfave.py
 
 clean: # remove data and binary folder
 
