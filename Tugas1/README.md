@@ -14,10 +14,10 @@
 
 This program scrapes best-deal coupons from [MyFave](https://www.myfave.com), the Indonesian version of Groupon. The best-deals are picked from five big cities: Jakarta, Bandung, Medan, Bali, and Surabaya.
 
-### Spesifications
-This program will fetch each coupon's detailed information and preprocess it into JSON object. And the program will do the normalization job to the existing JSON file and build a normalized dataframe.
+## Spesification
+The program will fetch each coupon's detailed information and preprocess it into JSON object. And the program will do the normalization job to the existing JSON file and build a normalized dataframe.
 
-### Prerequisites
+## Prerequisites
 1. Python 3.6
 2. BeautifulSoup4, to fetch the source code of the webpage.
 ```
@@ -29,7 +29,7 @@ $ pip install pandas
 ```
 4. Internet connection
 
-### How to Use
+## How to Use
 1. Execute Makefile with command bellow. This command will execute program with default settings: scrape 1 page for each city.
 ```
 $ make
@@ -47,14 +47,17 @@ $ make request="all" city="jakarta,bali"
 ```
 3. Your scrapping result will be saved to folder `data` which contains JSON object and its normalized form.
 
-### Screenshots
+## Screenshots
 Execute Program:
+![alt text](https://github.com/rhaerma/Seleksi-2018/blob/master/Tugas1/screenshots/Scraping1.png "Scraping on 1st stage")
 
 Scraping Process:
+![alt text](https://github.com/rhaerma/Seleksi-2018/blob/master/Tugas1/screenshots/Scraping2.png "Scraping on process")
 
 Dataframe format:
+![alt text](https://github.com/rhaerma/Seleksi-2018/blob/master/Tugas1/screenshots/NormalizedData2.png "Normalized Data")
 
-### JSON Structure
+## JSON Structure
 ```
 {
     "id": 20330,
@@ -110,12 +113,12 @@ Normalized structure:
     },
 ```
 
-### References
+## References
 1. [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 2. [Urllib](https://docs.python.org/3/library/urllib.html)
 3. [Pandas](https://github.com/pandas-dev/pandas)
 
-### Author
+## Author
 <p align="center">
   <br>
   Erma Safira Nurmasyita

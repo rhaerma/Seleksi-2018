@@ -64,7 +64,6 @@ def normalizeData(data):
     os.makedirs(os.path.dirname(dirpath+filename))
     with open(dirpath+filename, 'w') as f:
         f.write(out)
-    
     filename = 'coupons_dataframe.txt'
     with open(dirpath+filename, 'w') as f:
         f.write(df.to_string())
