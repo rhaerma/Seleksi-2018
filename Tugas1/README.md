@@ -1,12 +1,5 @@
 <h1 align="center">
   <br>
-  Tugas 1 Seleksi Warga Basdat 2018
-  <br>
-  <br>
-</h1>
-
-<h2 align="center">
-  <br>
   Data Scraping
   <br>
   <br>
@@ -14,48 +7,48 @@
 
 This program scrapes best-deal coupons from [MyFave](https://www.myfave.com), the Indonesian version of Groupon. The best-deals are picked from five big cities: Jakarta, Bandung, Medan, Bali, and Surabaya.
 
-## Spesification
+## Specification
 The program will fetch each coupon's detailed information and preprocess it into JSON object. And the program will do the normalization job to the existing JSON file and build a normalized dataframe.
 
-## Prerequisites
+## Requirements
 1. Python 3.6
 2. BeautifulSoup4, to fetch the source code of the webpage.
-```
-$ pip install beautifulsoup4
-```
+    ```
+    $ pip install beautifulsoup4
+    ```
 3. Pandas, to normalize JSON object into dataframe
-```
-$ pip install pandas
-```
+    ```
+    $ pip install pandas
+    ```
 4. Internet connection
 
 ## How to Use
+1. Go to `Tugas1` directory
 1. Execute Makefile with command bellow. This command will execute program with default settings: scrape 1 page for each city.
-```
-$ make
-```
+    ```
+    $ make
+    ```
 2. To change the setting, add arguments with format below.
 
-| Argument | Description |
-| --- | --- |
-| `city="cityA"` | Scrape from cityA only. For multiple cities, split by comma. |
-| `request="all"` | Get complete coupons from each city |
+    | Argument | Description |
+    | --- | --- |
+    | `city="cityA"` | Scrape from cityA only. For multiple cities, split by comma. |
+    | `request="all"` | Get complete coupons from each city |
 
-Example command:
-```
-$ make request="all" city="jakarta,bali"
-```
+    Example command:
+    ```
+    $ make request="all" city="jakarta,bali"
+    ```
 3. Your scrapping result will be saved to folder `data` which contains JSON object and its normalized form.
 
 ## Screenshots
 Execute Program:
+
 ![alt text](https://github.com/rhaerma/Seleksi-2018/blob/master/Tugas1/screenshots/Scraping1.png "Scraping on 1st stage")
 
 Scraping Process:
-![alt text](https://github.com/rhaerma/Seleksi-2018/blob/master/Tugas1/screenshots/Scraping2.png "Scraping on process")
 
-Dataframe format:
-![alt text](https://github.com/rhaerma/Seleksi-2018/blob/master/Tugas1/screenshots/NormalizedData2.png "Normalized Data")
+![alt text](https://github.com/rhaerma/Seleksi-2018/blob/master/Tugas1/screenshots/Scraping3.png "Scraping on process")
 
 ## JSON Structure
 ```
@@ -119,10 +112,8 @@ Normalized structure:
 3. [Pandas](https://github.com/pandas-dev/pandas)
 
 ## Author
-<p align="center">
+<h4 align="center">
   <br>
-  Erma Safira Nurmasyita
-  13516072
+  Erma Safira Nurmasyita - 13516072
   <br>
-  <br>
-</p>
+</h4>
