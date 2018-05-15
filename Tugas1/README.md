@@ -12,72 +12,114 @@
   <br>
 </h2>
 
+This program scrapes best-deal coupons from [MyFave](https://www.myfave.com), the Indonesian version of Groupon. The best-deals are picked from five big cities: Jakarta, Bandung, Medan, Bali, and Surabaya.
 
-### Specifications
+### Spesifications
+This program will fetch each coupon's detailed information and preprocess it into JSON object. And the program will do the normalization job to the existing JSON file and build a normalized dataframe.
 
-1. Lakukan data scraping dari sebuah laman web untuk memeroleh data atau informasi tertentu __TANPA MENGGUNAKAN API__
+### Prerequisites
+1. Python 3.6
+2. BeautifulSoup4, to fetch the source code of the webpage.
+```
+$ pip install beautifulsoup4
+```
+3. Pandas, to normalize JSON object into dataframe
+```
+$ pip install pandas
+```
+4. Internet connection
 
-2. Daftarkan judul topik yang akan dijadikan bahan data scraping pada spreadsheet berikut: [Topik Data Scraping](http://bit.ly/TopikDataScraping). Usahakan agar tidak ada peserta dengan topik yang sama. Akses edit ke spreadsheet akan ditutup tanggal 10 Mei 2018 pukul 20.00 WIB
+### How to Use
+1. Execute Makefile with command bellow. This command will execute program with default settings: scrape 1 page for each city.
+```
+$ make
+```
+2. To change the setting, add arguments with format below.
 
-3. Dalam mengerjakan tugas 1, calon warga basdat terlebih dahulu melakukan fork project github pada link berikut: https://github.com/wargabasdat/Seleksi-2018/tree/master/Tugas1. Sebelum batas waktu pengumpulan berakhir, calon warga basdat harus sudah melakukan pull request dengan nama ```TUGAS_SELEKSI_1_[NIM]```
+| Argument | Description |
+| --- | --- |
+| `city="cityA"` | Scrape from cityA only. For multiple cities, split by comma. |
+| `request="all"` | Get complete coupons from each city |
 
-4. Pada repository tersebut, calon warga basdat harus mengumpulkan file script dan json hasil data scraping. Repository terdiri dari folder src dan data dimana folder src berisi file script/kode yang __WELL DOCUMENTED dan CLEAN CODE__ sedangkan folder data berisi file json hasil scraper.
+Example command:
+```
+$ make request="all" city="jakarta,bali"
+```
+3. Your scrapping result will be saved to folder `data` which contains JSON object and its normalized form.
 
-5. Peserta juga diminta untuk membuat Makefile sesuai template yang disediakan, sehingga program dengan gampang di-_build_, di-_run_, dan di-_clean_
+### Screenshots
+Execute Program:
 
-``` Makefile
-all: clean build run
+Scraping Process:
 
-clean: # remove data and binary folder
+Dataframe format:
 
-build: # compile to binary (if you use interpreter, then do not implement it)
-
-run: # run your binary
-
+### JSON Structure
+```
+{
+    "id": 20330,
+    "title": "Voucher Value worth Rp 100.000,- for Food Only ",
+    "original_price": 100000.0,
+    "discounted_price": 70000.0,
+    "discount": 30,
+    "start_date": "2018-01-11T00:00:00.000+08:00",
+    "due_date": "2018-07-26T23:59:59.999+08:00",
+    "purchases_count": 29361,
+    "today_purchases_count": 0,
+    "partner": {
+        "company_name": "Genki Sushi",
+        "location": {
+        "latitude": "-6.127574",
+        "longitude": "106.790734"
+        }
+    },
+    "average_rating": "4.80",
+    "number_of_clicks": 2242,
+    "customer_city": [
+        "surabaya",
+        "bandung",
+        "jakarta"
+    ],
+    "category": "Eat"
+    },
 ```
 
-6. Deadline pengumpulan tugas adalah __15 Mei 2018 Pukul 23.59__
-
-7. Tugas 1 akan didemokan oleh masing-masing calon warga basdat
-
-8. Demo tugas mencakup keseluruhan proses data scraping hingga memeroleh data sesuai dengan yang dikumpulkan pada Tugas 1
-
-9. Hasil data scraping ini nantinya akan digunakan sebagai bahan tugas analisis dan visualisasi data
-
-10. Sebagai referensi untuk mengenal data scraping, asisten menyediakan dokumen "Short Guidance To Data Scraping" yang dapat diakses pada link berikut: [Data Scraping Guidance](http://bit.ly/DataScrapingGuidance)
-
-11. Tambahkan juga gitignore pada file atau folder yang tidak perlu di upload, __NB : BINARY TIDAK DIUPLOAD__
-
-12. JSON harus dinormalisasi dan harus di-_preprocessing_
+Normalized structure:
 ```
-Preprocessing contohnya :
-- Cleaning
-- Parsing
-- Transformation
-- dan lainnya
-```
-
-13. Berikan README yang __WELL DOCUMENTED__ dengan cara __override__ file README.md ini. README harus memuat minimal konten :
-```
-- Description
-- Specification
-- How to use
-- JSON Structure
-- Screenshot program (di-upload pada folder screenshots, di-upload file image nya, dan ditampilkan di dalam README)
-- Reference (Library used, etc)
-- Author
+{
+    "average_rating": "4.80",
+    "category": "Eat",
+    "customer_city": [
+        "surabaya",
+        "bandung",
+        "jakarta"
+    ],
+    "discount": 30.0,
+    "discounted_price": 70000.0,
+    "due_date": "2018-07-26T23:59:59.999+08:00",
+    "id": 20330,
+    "number_of_clicks": 2242,
+    "original_price": 100000.0,
+    "partner.company_name": "Genki Sushi",
+    "partner.location.latitude": "-6.127574",
+    "partner.location.longitude": "106.790734",
+    "purchases_count": 29361,
+    "start_date": "2018-01-11T00:00:00.000+08:00",
+    "title": "Voucher Value worth Rp 100.000,- for Food Only ",
+    "today_purchases_count": 0
+    },
 ```
 
-<h1 align="center">
-  <br>
-  Selamat BerEksplorasi!
-  <br>
-  <br>
-</h1>
+### References
+1. [BeautifulSoup4](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+2. [Urllib](https://docs.python.org/3/library/urllib.html)
+3. [Pandas](https://github.com/pandas-dev/pandas)
 
+### Author
 <p align="center">
   <br>
-  Basdat Industries - Lab Basdat 2018
+  Erma Safira Nurmasyita
+  13516072
   <br>
   <br>
 </p>

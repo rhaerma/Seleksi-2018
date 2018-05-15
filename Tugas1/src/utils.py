@@ -2,34 +2,31 @@
 """
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
+import pandas as pd
 import sys
+import os
 import time
 import json
 import re
 import random
 
-## Control arguments on command
+## Control arguments on command line
 def controlArgv(cities):
     listArgv = sys.argv
-    city = cities
     isRequestAll = False
     if (len(listArgv) > 1):
-        if ('--all' in sys.argv):
+        if ('all' in sys.argv):
             isRequestAll = True
-            listArgv.remove('--all')
+            listArgv.remove('all')
         if (len(listArgv) > 1):
-            city = listArgv[1].split('-')[1]
-            city = city.split(',')
+            city = listArgv[1].split(',')
             if (set(city).issubset(set(cities))):
-                city = list(set(city))
+                cities = list(set(city))
             else:
-                print('[!] Invalid Arguments. Scrapping in default setting ..')
-        else:
-            print('[!] Invalid Arguments. Scrapping in default setting ..')            
-    return city, isRequestAll
+                print('[!] Invalid Arguments. Scrapping in default setting ..')        
+    return cities, isRequestAll
 
 ## Get Raw Source of page in url
-## Return soup: BeautifulSoup object(in html)
 def getRawSource(url, counter):
     time.sleep(random.randint(0, 2))
     response = urlopen(url).read()
@@ -43,10 +40,31 @@ def getTextPattern(soup, div_id, regex):
     result = re.search(regex, str(rawData))
     return result
 
-## Save Data to File
+## Save Data to JSON File
 def saveJSONToFile(JSONObject):
-    filename = time.strftime("%Y-%m-%d_%H.%M.%S")
-    dirpath = '../data/scrapped_'+filename+'.json'
-    with open(dirpath, "w") as outfile:
+    global foldername
+    foldername = 'scrapped_'+time.strftime("%Y-%m-%d_%H.%M.%S")
+    filename = 'coupons_data.json'
+    dirpath = 'data/'+foldername+'/'
+
+    os.makedirs(os.path.dirname(dirpath))
+    with open(dirpath+filename, "w") as outfile:
         json.dump(JSONObject, outfile, indent=4)
-    print('> Your data has successfully saved to file!')
+    print('---> Your data has successfully saved to file!')
+
+# Normalize JSON format to Dataframe and save to file
+def normalizeData(data):
+    global foldername
+    df = pd.io.json.json_normalize(data)
+    out = df.to_json(orient='records')
+
+    # Save to file
+    filename = 'coupons_normalized.json'
+    dirpath = 'data/'+foldername+'/Normalized/'
+    os.makedirs(os.path.dirname(dirpath+filename))
+    with open(dirpath+filename, 'w') as f:
+        f.write(out)
+    
+    filename = 'coupons_dataframe.txt'
+    with open(dirpath+filename, 'w') as f:
+        f.write(df.to_string())

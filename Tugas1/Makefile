@@ -1,9 +1,6 @@
-all: clean build run
-	 $(shell cd $(BIN); ls)
-	python scrape_myfave.py
+all: clean run
 
 clean: # remove data and binary folder
 
-build: # compile to binary (if you use interpreter, then do not implement it)
-
-run: # run your binary
+run:
+	python src/scrape_myfave.py $(city) $(request)
